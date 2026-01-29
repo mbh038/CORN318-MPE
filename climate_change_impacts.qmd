@@ -1,14 +1,14 @@
 # Ocean Acidification
 
-Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts on calcifying marine organisms, their communities and ecosystems
+Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts not only on coral reefs but on all calcifying marine organisms, their communities and ecosystems
 
 Key papers for this topic include [@doney2020], [@mollica2018], [@orr2005], [@lischka2025] and [@royalsociety2005].
 
-## Inrease in atmospheric carbon dioxide concentration
+## Increase in atmospheric carbon dioxide concentration
 
-First, we note that atmospheric CO2 levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater.
+First, we note that atmospheric CO~2~ levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater.
 
-The best place to see this is the site of the [Mauna Loa Observatory](https://gml.noaa.gov/ccgg/trends/) in Hawaii, where measurements of atmospheric CO2 have been made since the 1950s. From @fig-mlo we see that over this period there has been an annual cycle superimposed on a relentlessly rising trend.
+The best place to see this is the site of the [Mauna Loa Observatory](https://gml.noaa.gov/ccgg/trends/) in Hawaii, where measurements of atmospheric CO~2~ have been going on continually since the late 1950s. From @fig-mlo we see that over this period there has been an annual cycle superimposed on a relentlessly rising trend.
 
 ::: {#fig-mlo layout-ncol="2"}
 ![Monthly variation in atmospheric CO2](figures/co2_trend_mlo.png){#fig-mlo_monthly}
@@ -24,7 +24,7 @@ The oceans absorb about 25-30% of the CO₂ emitted into the atmosphere. When CO
 
 We see from @fig-doney, taken from [@doney2020] that ocean pH levels have dropped by about 0.1 over the last 30-40 years.
 
-![Decline of ocean pH](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
+![Decline of ocean pH @fig-doney](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
 
 
 

@@ -1,0 +1,440 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={CORN318 Marine Pollution and Ecotoxicology},
+  pdfauthor={Michael Hunt},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{CORN318 Marine Pollution and Ecotoxicology}
+\author{Michael Hunt}
+\date{2026-01-29}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+Welcome to CORN318 Marine Pollution and Ecotoxicology
+
+\bookmarksetup{startatroot}
+
+\chapter{Ocean Acidification}\label{ocean-acidification}
+
+Ocean acidification is one of the most significant threats to coral
+reefs worldwide. It is a direct consequence of increased atmospheric
+carbon dioxide (CO₂) levels, which are absorbed by the oceans. This
+process alters seawater chemistry, with profound impacts on marine
+ecosystems, particularly coral reefs. Below is an overview of the impact
+of ocean acidification on coral reefs.
+
+Key papers for this topic include (Doney et al. 2020), (Mollica et al.
+2018), (Orr et al. 2005), (Lischka et al. 2025) and (Royal Society
+2005).
+
+\begin{figure}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{Doney et al 2020 ocean CO2.png}}
+
+}
+
+\caption{\label{fig-doney}Decline of ocean pH}
+
+\end{figure}%
+
+We see from Figure~\ref{fig-doney}, taken from (Doney et al. 2020) that
+ocean pH levels have dropped by about 0.1 over the last 30-40 years.
+
+Let us explore how this happens.\\
+\strut \\
+
+\section{Seawater Chemistry}\label{seawater-chemistry}
+
+First, we note that atmospheric CO2 levels have risen by about 30\% in
+the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm,
+and are continuing to rise at a rate of about 2ppm per year. This rate
+of increase is, if anything, becoming greater.
+
+The best place to see this is the site of the
+\href{https://gml.noaa.gov/ccgg/trends/}{Mauna Loa Observatory} in
+Hawaii, where measurements of atmospheric CO2 have been made since the
+1950s. From Figure~\ref{fig-mlo} we see that over this period there has
+been an annual cycle superimposed on a relentlessly rising trend.
+
+\begin{figure}
+
+\begin{minipage}{0.50\linewidth}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{figures/co2_trend_mlo.png}}
+
+}
+
+\subcaption{\label{fig-mlo_monthly}Monthly variation in atmospheric CO2}
+
+\end{minipage}%
+%
+\begin{minipage}{0.50\linewidth}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{figures/co2_data_mlo.png}}
+
+}
+
+\subcaption{\label{fig-mlo_co2_trend}Hanno}
+
+\end{minipage}%
+
+\caption{\label{fig-mlo}Atmospheric CO2 data from the Maua Loa
+observatory in Hawaii}
+
+\end{figure}%
+
+The oceans absorb about 25-30\% of the CO₂ emitted into the atmosphere.
+When CO₂ dissolves in seawater, it reacts with water to form carbonic
+acid, which dissociates into bicarbonate ions and hydrogen ions. The
+increase in atmospheric CO2 means that more CO2 is being absorbed by the
+oceans which means in turn that the concentration of hydrogen ions in
+the water is increasing. This means that the ocean is becoming more
+acidic, with reducd pH.
+
+At seawater pH levels (∼8), \(\ce{CO2}\) added to seawater reacts with
+water to form bicarbonate \(\ce{HCO3-}\) and hydrogen ions \(\ce{H+}\):
+
+\[\ce{CO2 + H2O -> H2CO3- + H+}\] The release of \(\ce{H+}\) acts to
+increase acidity and lower seawater pH, defined as
+
+\[\ce{pH}=-\log_{10}\ce{[H+]}\]
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, colback=white, bottomrule=.15mm, opacityback=0, coltitle=black, toprule=.15mm, titlerule=0mm, left=2mm, leftrule=.75mm, colframe=quarto-callout-note-color-frame, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm]
+
+\textbf{pH}: a measure of the acidity of water where lower pH reflects
+more acidic conditions; reported on a log-scale such that a 1-unit drop
+in pH is equivalent to a factor of 10 increase in acidity
+
+\end{tcolorbox}
+
+and lower the concentration of carbonate ions \ce{CO3^{2-}}, via
+
+\[\ce{CO3^{2-} + H+  -> HCO3-}\] Acidification impacts will depend on
+organism responses to multiple, simultaneous chemical
+changes---increasing \(\ce{CO2}\), \(\ce{HCO3-}\) , and \(\ce{H+}\) and
+decreasing \(\ce{CO3^{2-}}\). Many types of marine organisms that form
+shells and skeletons from calcium carbonate (\(\ce{CaCO3}\)) minerals
+are sensitive to acidification. The solubility of carbonate minerals,
+
+\[\ce{CaCO3 (s) <-> CO3^{2-} + Ca2+}\]
+
+can be expressed as a carbon saturation state
+
+\[ \Omega = \frac{\ce{[CO3^{2-}][Ca2+]}}{K_{sp}} \]
+
+where \(K_{sp}\) is the apparent solubility product at a given
+temperature, salinity and pressure for each mineral form of
+\(\ce{CaCO3}\). A value of \(\Omega\) \textless{} 1 indicates
+undersaturation with respect to thermodynamic equilibrium, and under
+those seawater conditions, unprotected carbonate materials will
+dissolve. The multiple forms of carbonate minerals vary in
+\emph{K}\textsubscript{sp} and so have different solubilities, with
+calcite being less soluble than aragonite and amorphous calcium
+carbonate. As \(\ce{CO2}\) increases, the \(\ce{CO3^{2-}}\)
+concentration declines because of consumption with \(\ce{H+}\) (Equation
+3) causing a decline in \(\Omega\).
+
+\begin{tcolorbox}[enhanced jigsaw, breakable, colback=white, bottomrule=.15mm, opacityback=0, coltitle=black, toprule=.15mm, titlerule=0mm, left=2mm, leftrule=.75mm, colframe=quarto-callout-note-color-frame, bottomtitle=1mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm]
+
+\textbf{aragonite} and \textbf{calcite} are two mineral forms of calcium
+carbonate \(\ce{CaCO3}\). Both are used by marine organisms in shell and
+skeleton formation by a biominerlization. Aragonite is the more soluble
+of the two, with rapid dissolution kinetics
+
+\end{tcolorbox}
+
+Ocean surface waters exchange \(\ce{CO2}\) with the overlying atmosphere
+via physical gas transfer, and the surface seawater partial pressure,
+\(\ce{pCO2}\), tends to track the growth of atmospheric \(\ce{CO2}\) for
+much of the global ocean, as illustrated by long-term time series
+records at numerous open-ocean locations and analysis of global surface
+ocean \(\ce{CO2}\) observational networks. As a result, surface pH and
+\(\ce{CO3^{2-}}\) are declining, and surface ocean pH is estimated to
+have dropped on average globally by approximately 0.1 units from the
+preindustrial era to present, which is an ∼30\% increase in hydrogen ion
+concentration.
+
+Hence, as \(\Omega\) declines, aragonite in particular becomes more
+soluble and aragonite calcareous shells of marine life forms become
+vulnerable to dissolving.
+
+Studies have already found evidence of extensive shell dissolution of
+the aragonite shells of the pteropod (small snails) \emph{Limacina
+helicina antarctica} in the Southern Ocean, where undersaturation (ie
+\(\ce{Omega_{\text{ar}}<1})\) of aragonite is now a reality (Lischka et
+al. 2025).
+
+\section{Organismal Responses}\label{organismal-responses}
+
+\section{Community and Ecosystem
+Effects}\label{community-and-ecosystem-effects}
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-doney2020}
+Doney, Scott C., D. Shallin Busch, Sarah R. Cooley, and Kristy J.
+Kroeker. 2020. {``The Impacts of Ocean Acidification on Marine
+Ecosystems and Reliant Human Communities.''} \emph{Annual Review of
+Environment and Resources} 45 (1): 83--112.
+\url{https://doi.org/10.1146/annurev-environ-012320-083019}.
+
+\bibitem[\citeproctext]{ref-lischka2025}
+Lischka, Silke, Jan Michels, Lennart Thomas Bach, Katharina Csenteri,
+Sonja Konschak, and Stanislav N. Gorb. 2025. {``Pteropods as
+Early{-}Warning Indicators of Ocean Acidification.''} \emph{Limnology
+and Oceanography} 70 (6): 1651--65.
+\url{https://doi.org/10.1002/lno.70079}.
+
+\bibitem[\citeproctext]{ref-mollica2018}
+Mollica, Nathaniel R, Weifu Guo, Anne L Cohen, Kuo-Fang Huang, Gavin L
+Foster, Hannah K Donald, and Andrew R Solow. 2018. {``Ocean
+Acidification Affects Coral Growth by Reducing Skeletal Density.''}
+\emph{Proceedings of the National Academy of Sciences - PNAS} 115 (8):
+1754--59. \url{https://doi.org/10.1073/pnas.1712806115}.
+
+\bibitem[\citeproctext]{ref-orr2005}
+Orr, James C., Victoria J. Fabry, Olivier Aumont, Laurent Bopp, Scott C.
+Doney, Richard A. Feely, Anand Gnanadesikan, et al. 2005.
+{``Anthropogenic Ocean Acidification over the Twenty-First Century and
+Its Impact on Calcifying Organisms.''} \emph{Nature} 437 (7059):
+681--86. \url{https://doi.org/10.1038/nature04095}.
+
+\bibitem[\citeproctext]{ref-royalsociety2005}
+Royal Society. 2005. \emph{Ocean acidification due to increasing
+atmospheric carbon dioxide}. Vol. 12/05. Policy Document. London: Royal
+Society.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}

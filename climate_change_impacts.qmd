@@ -4,7 +4,7 @@ Ocean acidification is one of the most significant threats to coral reefs worldw
 
 Key papers for this topic include [@doney2020], [@mollica2018], [@orr2005], [@lischka2025] and [@royalsociety2005].
 
-![Decline of ocean pH](Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
+![Decline of ocean pH](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
 
 We see from @fig-doney, taken from [@doney2020] that ocean pH levels have dropped by about 0.1 over the last 30-40 years.
 

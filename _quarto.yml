@@ -7,8 +7,7 @@ book:
   date: "1/29/2026"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - climate_change_impacts.qmd
     - references.qmd
 
 bibliography: references.bib

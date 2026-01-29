@@ -2,7 +2,7 @@
 
 Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts on marine ecosystems, particularly coral reefs. Below is an overview of the impact of ocean acidification on coral reefs.
 
-Key papers for this topic include [@doney2020].
+Key papers for this topic include [@doney2020], [@mollica2018], [@orr2005], [@lischka2025] and [@royalsociety2005].
 
 ![Decline of ocean pH](Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
 
@@ -17,8 +17,7 @@ First, we note that atmospheric CO2 levels have risen by about 30% in the last 7
 
 The best place to see this is the site of the [Mauna Loa Observatory](https://gml.noaa.gov/ccgg/trends/) in Hawaii, where measurements of atmospheric CO2 have been made since the 1950s. From @fig-mlo we see that over this period there has been an annual cycle superimposed on a relentlessly rising trend.
 
-::: {#fig-mlo layout-ncol=2}
-
+::: {#fig-mlo layout-ncol="2"}
 ![Monthly variation in atmospheric CO2](figures/co2_trend_mlo.png){#fig-mlo_monthly}
 
 ![Hanno](figures/co2_data_mlo.png){#fig-mlo_co2_trend}
@@ -63,4 +62,3 @@ Studies have already found evidence of extensive shell dissolution of the aragon
 ## Organismal Responses
 
 ## Community and Ecosystem Effects
-

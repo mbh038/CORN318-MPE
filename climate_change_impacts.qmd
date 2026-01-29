@@ -1,17 +1,10 @@
 # Ocean Acidification
 
-Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts on marine ecosystems, particularly coral reefs. Below is an overview of the impact of ocean acidification on coral reefs.
+Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts on calcifying marine organisms, their communities and ecosystems
 
 Key papers for this topic include [@doney2020], [@mollica2018], [@orr2005], [@lischka2025] and [@royalsociety2005].
 
-![Decline of ocean pH](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
-
-We see from @fig-doney, taken from [@doney2020] that ocean pH levels have dropped by about 0.1 over the last 30-40 years.
-
-Let us explore how this happens.\
-\
-
-## Seawater Chemistry
+## Inrease in atmospheric carbon dioxide concentration
 
 First, we note that atmospheric CO2 levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater.
 
@@ -25,7 +18,18 @@ The best place to see this is the site of the [Mauna Loa Observatory](https://gm
 Atmospheric CO2 data from the Maua Loa observatory in Hawaii
 :::
 
+## Seawater chemistry
+
 The oceans absorb about 25-30% of the CO₂ emitted into the atmosphere. When CO₂ dissolves in seawater, it reacts with water to form carbonic acid, which dissociates into bicarbonate ions and hydrogen ions. The increase in atmospheric CO2 means that more CO2 is being absorbed by the oceans which means in turn that the concentration of hydrogen ions in the water is increasing. This means that the ocean is becoming more acidic, with reducd pH.
+
+We see from @fig-doney, taken from [@doney2020] that ocean pH levels have dropped by about 0.1 over the last 30-40 years.
+
+![Decline of ocean pH](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
+
+
+
+Let us explore how this happens.\
+\
 
 At seawater pH levels (∼8), $\ce{CO2}$ added to seawater reacts with water to form bicarbonate $\ce{HCO3-}$ and hydrogen ions $\ce{H+}$:
 

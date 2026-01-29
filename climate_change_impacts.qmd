@@ -24,7 +24,7 @@ The oceans absorb about 25-30% of the CO₂ emitted into the atmosphere. When CO
 
 We see from @fig-doney, taken from [@doney2020] that ocean pH levels have dropped by about 0.1 over the last 30-40 years.
 
-![Decline of ocean pH @fig-doney](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
+![Decline of ocean pH @doney2020](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
 
 
 

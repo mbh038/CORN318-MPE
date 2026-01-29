@@ -1,42 +1,4 @@
----
-title: "Marine impacts of climate change"
-format:
-  revealjs:
-    include-in-header:
-      text: |
-        \usepackage{mhchem}   
-  pdf:
-    include-in-header:
-      text: |
-        \usepackage{mhchem}
-  html:
-    html-math-method:
-      method: mathjax
-      url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    include-in-header:
-      text: |
-        <script>
-        MathJax = {
-          loader: {load: ['[tex]/mhchem']},
-          tex: {packages: {'[+]': ['mhchem']}}
-        };
-        </script>
-editor: visual
-bibliography: references.bib
----
-
-## Overview
-
-In this presentation we will consider the impact of climate change on the marine environment. In particular, we will discuss
-
--   Sea surface temperature rise
--   Sea level rise
--   Acidification
--   Local changes in salinity
--   Geopolitical issues
--   Change in frequency and severity of extreme events
-
-## Ocean Acidification
+# Ocean Acidification
 
 ![Doney 2020](Doney%20et%20al%202020%20ocean%20CO2.png)
 
@@ -72,6 +34,4 @@ Hence, as $\Omega$ declines, aragonite in particular becomes more soluble and ar
 
 Studies have already found evidence of extensive shell dissolution of the aragonite shells of the pteropod (small snails) *Limacina helicina antarctica* in the Southern Ocean, where undersaturation (ie $\ce{Omega_{\text{ar}}<1})$ of aragonite is now a reality [@lischka2025].
 
-## Sea Level Rise
 
-evidence from IPCC encroachment on beaches salination of water tables impact on storm surge flooding

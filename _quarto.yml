@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "CORN - bbb"
-  author: "Norah Jones"
+  title: "CORN318 Marine Pollution and Ecotoxicology"
+  author: "Michael Hunt"
   date: "1/29/2026"
   chapters:
     - index.qmd

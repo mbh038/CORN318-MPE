@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "CORN318 Marine Pollution and Ecotoxicology"
@@ -17,8 +18,6 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 

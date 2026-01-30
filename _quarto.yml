@@ -6,6 +6,8 @@ book:
   title: "CORN318 Marine Pollution and Ecotoxicology"
   author: "Michael Hunt"
   date: "1/29/2026"
+  license: "CC BY-SA"
+  page-footer: CC-BY-SA-4.0 (2026) Michael Hunt
   chapters:
     - index.qmd
     - climate_change_impacts.qmd

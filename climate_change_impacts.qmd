@@ -57,12 +57,14 @@ where $K_{sp}$ is the apparent solubility product at a given temperature, salini
 **aragonite** and **calcite** are two mineral forms of calcium carbonate $\ce{CaCO3}$. Both are used by marine organisms in shell and skeleton formation by a biominerlization. Aragonite is the more soluble of the two, with rapid dissolution kinetics
 :::
 
-Ocean surface waters exchange $\ce{CO2}$ with the overlying atmosphere via physical gas transfer, and the surface seawater partial pressure, $\ce{pCO2}$, tends to track the growth of atmospheric $\ce{CO2}$ for much of the global ocean, as illustrated by long-term time series records at numerous open-ocean locations and analysis of global surface ocean $\ce{CO2}$ observational networks. As a result, surface pH and $\ce{CO3^{2-}}$ are declining, and surface ocean pH is estimated to have dropped on average globally by approximately 0.1 units from the preindustrial era to present, which is an ∼30% increase in hydrogen ion concentration.
+Ocean surface waters exchange $\ce{CO2}$ with the overlying atmosphere via physical gas transfer, and the surface seawater partial pressure, $\ce{pCO2}$, tends to track the growth of atmospheric $\ce{CO2}$ for much of the global ocean, as illustrated by long-term time series records at numerous open-ocean locations and analysis of global surface ocean $\ce{CO2}$ observational networks. As a result, surface pH and $\ce{CO3^{2-}}$ are declining, and surface ocean pH is estimated to have dropped on average globally by approximately 0.1 units from the preindustrial era to present, which means there has been an ∼30% increase in hydrogen ion concentration. What? Yes. The oceans are now about 30% more acidic than they were just a few decades ago.
 
 Hence, as $\Omega$ declines, aragonite in particular becomes more soluble and aragonite calcareous shells of marine life forms become vulnerable to dissolving.
 
 Studies have already found evidence of extensive shell dissolution of the aragonite shells of the pteropod (small snails) *Limacina helicina antarctica* in the Southern Ocean, where undersaturation (ie $\ce{Omega_{\text{ar}}<1})$ of aragonite is now a reality [@lischka2025].
 
 ## Organismal Responses
+
+Hello
 
 ## Community and Ecosystem Effects

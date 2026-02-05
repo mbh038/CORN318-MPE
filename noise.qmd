@@ -1,10 +1,7 @@
----
-bibliography: references.bib
----
 
-# "Noise in the marine environment"
+# Noise in the marine environment
 
-## Sources of noise
+## Sources of noise [@duarte2021]
 
 -   Shipping noise
 -   Pile driving
@@ -14,13 +11,11 @@ bibliography: references.bib
 
 ## Impacts of noise
 
--   Behavioural change\
--   Displacement – ie animals leave an area
+-   Behavioural change
+-   Displacement – ie animals leave an area [@tyack2008]
 -   Masking of communication –
--   Hearing damage - permanent & temporary threshold shift
+-   Hearing damage - permanent & temporary threshold shift [@mickle2019]
 -   Stress
 -   Strandings & death
 
-## Sources
-
-[@mickle2019], [@duarte2021][@tyack2008]
+## 

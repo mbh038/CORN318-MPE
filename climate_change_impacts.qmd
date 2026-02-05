@@ -6,7 +6,7 @@ Key papers for this topic include [@doney2020], [@mollica2018], [@orr2005], [@li
 
 ## Increase in atmospheric carbon dioxide concentration
 
-First, we note that atmospheric CO~2~ levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater.
+First, we note that atmospheric CO~2~ levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater. The increase is driven almost entirely by the release into the atmosphere of CO~2~ in the combustion of fossil fuels. Around 10 Gt carbon is now being released annually. The atmospheric concentration of CO2 is now at a level not experienced on Earth for several million years, and the rate of change in the last two hudred years is up to 100 times greater than the most rapid rates of change that occurred during transitions between glacial and interglacial periods.
 
 The best place to see this is the site of the [Mauna Loa Observatory](https://gml.noaa.gov/ccgg/trends/) in Hawaii, where measurements of atmospheric CO~2~ have been going on continually since the late 1950s. From @fig-mlo we see that over this period there has been an annual cycle superimposed on a relentlessly rising trend.
 
@@ -65,6 +65,19 @@ Studies have already found evidence of extensive shell dissolution of the aragon
 
 ## Organismal Responses
 
-Hello
+Changes to 
+
+* growth of otoliths—calcium carbonate structures in fish ears that aid in balance—mitochondrial function
+* metabolic rate
+* larval yolk consumption
+* activity
+* neurosensory processes
+* behavior, including settlement into specific habitat at the end of the early life stages.
+
+Variable responses
 
 ## Community and Ecosystem Effects
+
+![Community responses](figures/Doney_community_trends.png){#fig-community-trends}
+
+

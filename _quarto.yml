@@ -12,6 +12,7 @@ book:
     - index.qmd
     - climate_change_impacts.qmd
     - noise.qmd
+    - light.qmd
     - references.qmd
 
 bibliography: references.bib

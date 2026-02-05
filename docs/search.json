@@ -64,7 +64,17 @@
     "href": "noise.html",
     "title": "2  Noise in the marine environment",
     "section": "",
-    "text": "2.1 Sources of noise (Duarte et al. 2021)",
+    "text": "2.1 The nature sound in the marine environment",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
+    ]
+  },
+  {
+    "objectID": "noise.html#the-decibel-scale",
+    "href": "noise.html#the-decibel-scale",
+    "title": "2  Noise in the marine environment",
+    "section": "2.2 The decibel scale",
+    "text": "2.2 The decibel scale",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
     ]
@@ -73,8 +83,8 @@
     "objectID": "noise.html#sources-of-noise-duarte2021",
     "href": "noise.html#sources-of-noise-duarte2021",
     "title": "2  Noise in the marine environment",
-    "section": "",
-    "text": "Shipping noise\nPile driving\nSeismic airgun\nMilitary sonar\nAcoustic deterrents",
+    "section": "2.3 Sources of noise (Duarte et al. 2021)",
+    "text": "2.3 Sources of noise (Duarte et al. 2021)\n\nShipping noise\nPile driving\nSeismic airgun\nMilitary sonar\nAcoustic deterrents",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
     ]
@@ -83,18 +93,8 @@
     "objectID": "noise.html#impacts-of-noise",
     "href": "noise.html#impacts-of-noise",
     "title": "2  Noise in the marine environment",
-    "section": "2.2 Impacts of noise",
-    "text": "2.2 Impacts of noise\n\nBehavioural change\nDisplacement – ie animals leave an area (Tyack 2008)\nMasking of communication –\nHearing damage - permanent & temporary threshold shift (Mickle et al. 2019)\nStress\nStrandings & death",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
-    ]
-  },
-  {
-    "objectID": "noise.html#section",
-    "href": "noise.html#section",
-    "title": "2  Noise in the marine environment",
-    "section": "2.3 ",
-    "text": "2.3 \n\n\n\n\nDuarte, Carlos M., Lucille Chapuis, Shaun P. Collin, Daniel P. Costa, Reny P. Devassy, Victor M. Eguiluz, Christine Erbe, et al. 2021. “The Soundscape of the Anthropocene Ocean.” Science 371 (6529): 1–10. https://doi.org/10.1126/science.aba4658.\n\n\nMickle, Megan F., Christopher M. Harris, Oliver P. Love, and Dennis M. Higgs. 2019. “Behavioural and Morphological Changes in Fish Exposed to Ecologically Relevant Boat Noises.” Canadian Journal of Fisheries and Aquatic Sciences 76 (10): 1845–53. https://doi.org/10.1139/cjfas-2018-0258.\n\n\nTyack, Peter L. 2008. “Implications for Marine Mammals of Large-Scale Changes in the Marine Acoustic Environment.” Journal of Mammalogy 89 (3): 549–58. https://doi.org/10.1644/07-MAMM-S-307R.1.",
+    "section": "2.4 Impacts of noise",
+    "text": "2.4 Impacts of noise\n\nBehavioural change\nDisplacement – ie animals leave an area (Tyack 2008)\nMasking of communication –\nHearing damage - permanent & temporary threshold shift (Mickle et al. 2019)\nStress\nStrandings & death\n\n\n\n\n\nDuarte, Carlos M., Lucille Chapuis, Shaun P. Collin, Daniel P. Costa, Reny P. Devassy, Victor M. Eguiluz, Christine Erbe, et al. 2021. “The Soundscape of the Anthropocene Ocean.” Science 371 (6529): 1–10. https://doi.org/10.1126/science.aba4658.\n\n\nMickle, Megan F., Christopher M. Harris, Oliver P. Love, and Dennis M. Higgs. 2019. “Behavioural and Morphological Changes in Fish Exposed to Ecologically Relevant Boat Noises.” Canadian Journal of Fisheries and Aquatic Sciences 76 (10): 1845–53. https://doi.org/10.1139/cjfas-2018-0258.\n\n\nTyack, Peter L. 2008. “Implications for Marine Mammals of Large-Scale Changes in the Marine Acoustic Environment.” Journal of Mammalogy 89 (3): 549–58. https://doi.org/10.1644/07-MAMM-S-307R.1.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
     ]

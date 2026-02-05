@@ -1,6 +1,10 @@
 
 # Noise in the marine environment
 
+## The nature sound in the marine environment
+
+## The decibel scale
+
 ## Sources of noise [@duarte2021]
 
 -   Shipping noise
@@ -18,4 +22,3 @@
 -   Stress
 -   Strandings & death
 
-## 

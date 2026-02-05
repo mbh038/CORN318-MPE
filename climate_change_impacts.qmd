@@ -26,8 +26,6 @@ We see from @fig-doney, taken from [@doney2020] that ocean pH levels have droppe
 
 ![Decline of ocean pH @doney2020](figures/Doney%20et%20al%202020%20ocean%20CO2.png){#fig-doney}
 
-
-
 Let us explore how this happens.\
 \
 
@@ -65,19 +63,17 @@ Studies have already found evidence of extensive shell dissolution of the aragon
 
 ## Organismal Responses
 
-Changes to 
+Changes to
 
-* growth of otoliths—calcium carbonate structures in fish ears that aid in balance—mitochondrial function
-* metabolic rate
-* larval yolk consumption
-* activity
-* neurosensory processes
-* behavior, including settlement into specific habitat at the end of the early life stages.
+-   growth of otoliths—calcium carbonate structures in fish ears that aid in balance—mitochondrial function
+-   metabolic rate
+-   larval yolk consumption
+-   activity
+-   neurosensory processes
+-   behaviour, including settlement into specific habitat at the end of the early life stages.
 
-Variable responses
+Variable responses - must take into account interactions with other factors such s elevted temperature and depleted oxygen.
 
 ## Community and Ecosystem Effects
 
 ![Community responses](figures/Doney_community_trends.png){#fig-community-trends}
-
-

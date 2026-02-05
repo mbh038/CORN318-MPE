@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Ocean Acidification – CORN318 Marine Pollution and Ecotoxicology</title>
+<title>2&nbsp; “Noise in the marine environment” – CORN318 Marine Pollution and Ecotoxicology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,8 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./noise.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./climate_change_impacts.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -89,35 +69,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -130,7 +81,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./climate_change_impacts.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./noise.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">“Noise in the marine environment”</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -163,13 +114,13 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./climate_change_impacts.html" class="sidebar-item-text sidebar-link active">
+  <a href="./climate_change_impacts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./noise.html" class="sidebar-item-text sidebar-link">
+  <a href="./noise.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">“Noise in the marine environment”</span></span></a>
   </div>
 </li>
@@ -189,10 +140,8 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#increase-in-atmospheric-carbon-dioxide-concentration" id="toc-increase-in-atmospheric-carbon-dioxide-concentration" class="nav-link active" data-scroll-target="#increase-in-atmospheric-carbon-dioxide-concentration"><span class="header-section-number">1.1</span> Increase in atmospheric carbon dioxide concentration</a></li>
-  <li><a href="#seawater-chemistry" id="toc-seawater-chemistry" class="nav-link" data-scroll-target="#seawater-chemistry"><span class="header-section-number">1.2</span> Seawater chemistry</a></li>
-  <li><a href="#organismal-responses" id="toc-organismal-responses" class="nav-link" data-scroll-target="#organismal-responses"><span class="header-section-number">1.3</span> Organismal Responses</a></li>
-  <li><a href="#community-and-ecosystem-effects" id="toc-community-and-ecosystem-effects" class="nav-link" data-scroll-target="#community-and-ecosystem-effects"><span class="header-section-number">1.4</span> Community and Ecosystem Effects</a></li>
+  <li><a href="#sources-of-noise" id="toc-sources-of-noise" class="nav-link active" data-scroll-target="#sources-of-noise"><span class="header-section-number">2.1</span> Sources of noise</a></li>
+  <li><a href="#impacts-of-noise" id="toc-impacts-of-noise" class="nav-link" data-scroll-target="#impacts-of-noise"><span class="header-section-number">2.2</span> Impacts of noise</a></li>
   </ul>
 </nav>
     </div>
@@ -201,7 +150,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">“Noise in the marine environment”</span></h1>
 </div>
 
 
@@ -218,148 +167,29 @@ window.Quarto = {
 </header>
 
 
-<p>Ocean acidification is one of the most significant threats to coral reefs worldwide. It is a direct consequence of increased atmospheric carbon dioxide (CO₂) levels, which are absorbed by the oceans. This process alters seawater chemistry, with profound impacts not only on coral reefs but on all calcifying marine organisms, their communities and ecosystems</p>
-<p>Key papers for this topic include <span class="citation" data-cites="doney2020">(<a href="references.html#ref-doney2020" role="doc-biblioref">Doney et al. 2020</a>)</span>, <span class="citation" data-cites="mollica2018">(<a href="references.html#ref-mollica2018" role="doc-biblioref">Mollica et al. 2018</a>)</span>, <span class="citation" data-cites="orr2005">(<a href="references.html#ref-orr2005" role="doc-biblioref">Orr et al. 2005</a>)</span>, <span class="citation" data-cites="lischka2025">(<a href="references.html#ref-lischka2025" role="doc-biblioref">Lischka et al. 2025</a>)</span> and <span class="citation" data-cites="royalsociety2005">(<a href="references.html#ref-royalsociety2005" role="doc-biblioref">Royal Society 2005</a>)</span>.</p>
-<section id="increase-in-atmospheric-carbon-dioxide-concentration" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="increase-in-atmospheric-carbon-dioxide-concentration"><span class="header-section-number">1.1</span> Increase in atmospheric carbon dioxide concentration</h2>
-<p>First, we note that atmospheric CO<sub>2</sub> levels have risen by about 30% in the last 70 years, from around 300 pm to (now, in 2026) around 428 ppm, and are continuing to rise at a rate of about 2ppm per year. This rate of increase is, if anything, becoming greater. The increase is driven almost entirely by the release into the atmosphere of CO<sub>2</sub> in the combustion of fossil fuels. Around 10 Gt carbon is now being released annually. The atmospheric concentration of CO2 is now at a level not experienced on Earth for several million years, and the rate of change in the last two hudred years is up to 100 times greater than the most rapid rates of change that occurred during transitions between glacial and interglacial periods.</p>
-<p>The best place to see this is the site of the <a href="https://gml.noaa.gov/ccgg/trends/">Mauna Loa Observatory</a> in Hawaii, where measurements of atmospheric CO<sub>2</sub> have been going on continually since the late 1950s. From <a href="#fig-mlo" class="quarto-xref">Figure&nbsp;<span>1.1</span></a> we see that over this period there has been an annual cycle superimposed on a relentlessly rising trend.</p>
-<div id="fig-mlo" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-mlo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-mlo" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-mlo_monthly" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-mlo_monthly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/co2_trend_mlo.png" class="img-fluid figure-img" data-ref-parent="fig-mlo">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mlo_monthly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Monthly variation in atmospheric CO2
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-mlo" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div id="fig-mlo_co2_trend" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-subfloat-fig figure">
-<div aria-describedby="fig-mlo_co2_trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/co2_data_mlo.png" class="img-fluid figure-img" data-ref-parent="fig-mlo">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mlo_co2_trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Hanno
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mlo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Atmospheric CO2 data from the Maua Loa observatory in Hawaii
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="seawater-chemistry" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="seawater-chemistry"><span class="header-section-number">1.2</span> Seawater chemistry</h2>
-<p>The oceans absorb about 25-30% of the CO₂ emitted into the atmosphere. When CO₂ dissolves in seawater, it reacts with water to form carbonic acid, which dissociates into bicarbonate ions and hydrogen ions. The increase in atmospheric CO2 means that more CO2 is being absorbed by the oceans which means in turn that the concentration of hydrogen ions in the water is increasing. This means that the ocean is becoming more acidic, with reducd pH.</p>
-<p>We see from <a href="#fig-doney" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>, taken from <span class="citation" data-cites="doney2020">(<a href="references.html#ref-doney2020" role="doc-biblioref">Doney et al. 2020</a>)</span> that ocean pH levels have dropped by about 0.1 over the last 30-40 years.</p>
-<div id="fig-doney" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-doney-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/Doney et al 2020 ocean CO2.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-doney-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.2: Decline of ocean pH <span class="citation" data-cites="doney2020">Doney et al. (<a href="references.html#ref-doney2020" role="doc-biblioref">2020</a>)</span>
-</figcaption>
-</figure>
-</div>
-<p>Let us explore how this happens.<br>
-<br>
-</p>
-<p>At seawater pH levels (∼8), <span class="math inline">\(\ce{CO2}\)</span> added to seawater reacts with water to form bicarbonate <span class="math inline">\(\ce{HCO3-}\)</span> and hydrogen ions <span class="math inline">\(\ce{H+}\)</span>:</p>
-<p><span class="math display">\[\ce{CO2 + H2O -&gt; H2CO3- + H+}\]</span> The release of <span class="math inline">\(\ce{H+}\)</span> acts to increase acidity and lower seawater pH, defined as</p>
-<p><span class="math display">\[\ce{pH}=-\log_{10}\ce{[H+]}\]</span></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>pH</strong>: a measure of the acidity of water where lower pH reflects more acidic conditions; reported on a log-scale such that a 1-unit drop in pH is equivalent to a factor of 10 increase in acidity</p>
-</div>
-</div>
-<p>and lower the concentration of carbonate ions , via</p>
-<p><span class="math display">\[\ce{CO3^{2-} + H+  -&gt; HCO3-}\]</span> Acidification impacts will depend on organism responses to multiple, simultaneous chemical changes—increasing <span class="math inline">\(\ce{CO2}\)</span>, <span class="math inline">\(\ce{HCO3-}\)</span> , and <span class="math inline">\(\ce{H+}\)</span> and decreasing <span class="math inline">\(\ce{CO3^{2-}}\)</span>. Many types of marine organisms that form shells and skeletons from calcium carbonate (<span class="math inline">\(\ce{CaCO3}\)</span>) minerals are sensitive to acidification. The solubility of carbonate minerals,</p>
-<p><span class="math display">\[\ce{CaCO3 (s) &lt;-&gt; CO3^{2-} + Ca2+}\]</span></p>
-<p>can be expressed as a carbon saturation state</p>
-<p><span class="math display">\[ \Omega = \frac{\ce{[CO3^{2-}][Ca2+]}}{K_{sp}} \]</span></p>
-<p>where <span class="math inline">\(K_{sp}\)</span> is the apparent solubility product at a given temperature, salinity and pressure for each mineral form of <span class="math inline">\(\ce{CaCO3}\)</span>. A value of <span class="math inline">\(\Omega\)</span> &lt; 1 indicates undersaturation with respect to thermodynamic equilibrium, and under those seawater conditions, unprotected carbonate materials will dissolve. The multiple forms of carbonate minerals vary in <em>K</em><sub>sp</sub> and so have different solubilities, with calcite being less soluble than aragonite and amorphous calcium carbonate. As <span class="math inline">\(\ce{CO2}\)</span> increases, the <span class="math inline">\(\ce{CO3^{2-}}\)</span> concentration declines because of consumption with <span class="math inline">\(\ce{H+}\)</span> (Equation 3) causing a decline in <span class="math inline">\(\Omega\)</span>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>aragonite</strong> and <strong>calcite</strong> are two mineral forms of calcium carbonate <span class="math inline">\(\ce{CaCO3}\)</span>. Both are used by marine organisms in shell and skeleton formation by a biominerlization. Aragonite is the more soluble of the two, with rapid dissolution kinetics</p>
-</div>
-</div>
-<p>Ocean surface waters exchange <span class="math inline">\(\ce{CO2}\)</span> with the overlying atmosphere via physical gas transfer, and the surface seawater partial pressure, <span class="math inline">\(\ce{pCO2}\)</span>, tends to track the growth of atmospheric <span class="math inline">\(\ce{CO2}\)</span> for much of the global ocean, as illustrated by long-term time series records at numerous open-ocean locations and analysis of global surface ocean <span class="math inline">\(\ce{CO2}\)</span> observational networks. As a result, surface pH and <span class="math inline">\(\ce{CO3^{2-}}\)</span> are declining, and surface ocean pH is estimated to have dropped on average globally by approximately 0.1 units from the preindustrial era to present, which means there has been an ∼30% increase in hydrogen ion concentration. What? Yes. The oceans are now about 30% more acidic than they were just a few decades ago.</p>
-<p>Hence, as <span class="math inline">\(\Omega\)</span> declines, aragonite in particular becomes more soluble and aragonite calcareous shells of marine life forms become vulnerable to dissolving.</p>
-<p>Studies have already found evidence of extensive shell dissolution of the aragonite shells of the pteropod (small snails) <em>Limacina helicina antarctica</em> in the Southern Ocean, where undersaturation (ie <span class="math inline">\(\ce{Omega_{\text{ar}}&lt;1})\)</span> of aragonite is now a reality <span class="citation" data-cites="lischka2025">(<a href="references.html#ref-lischka2025" role="doc-biblioref">Lischka et al. 2025</a>)</span>.</p>
-</section>
-<section id="organismal-responses" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="organismal-responses"><span class="header-section-number">1.3</span> Organismal Responses</h2>
-<p>Changes to</p>
+<section id="sources-of-noise" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sources-of-noise"><span class="header-section-number">2.1</span> Sources of noise</h2>
 <ul>
-<li>growth of otoliths—calcium carbonate structures in fish ears that aid in balance—mitochondrial function</li>
-<li>metabolic rate</li>
-<li>larval yolk consumption</li>
-<li>activity</li>
-<li>neurosensory processes</li>
-<li>behaviour, including settlement into specific habitat at the end of the early life stages.</li>
+<li>Shipping noise</li>
+<li>Pile driving</li>
+<li>Seismic airgun</li>
+<li>Military sonar</li>
+<li>Acoustic deterrents</li>
 </ul>
-<p>Variable responses - must take into account interactions with other factors such s elevted temperature and depleted oxygen.</p>
 </section>
-<section id="community-and-ecosystem-effects" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="community-and-ecosystem-effects"><span class="header-section-number">1.4</span> Community and Ecosystem Effects</h2>
-<div id="fig-community-trends" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-community-trends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/Doney_community_trends.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-community-trends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.3: Community responses
-</figcaption>
-</figure>
-</div>
+<section id="impacts-of-noise" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="impacts-of-noise"><span class="header-section-number">2.2</span> Impacts of noise</h2>
+<ul>
+<li>Behavioural change<br>
+</li>
+<li>Displacement – ie animals leave an area</li>
+<li>Masking of communication –</li>
+<li>Hearing damage - permanent &amp; temporary threshold shift</li>
+<li>Stress</li>
+<li>Strandings &amp; death</li>
+</ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-doney2020" class="csl-entry" role="listitem">
-Doney, Scott C., D. Shallin Busch, Sarah R. Cooley, and Kristy J. Kroeker. 2020. <span>“The Impacts of Ocean Acidification on Marine Ecosystems and Reliant Human Communities.”</span> <em>Annual Review of Environment and Resources</em> 45 (1): 83–112. <a href="https://doi.org/10.1146/annurev-environ-012320-083019">https://doi.org/10.1146/annurev-environ-012320-083019</a>.
-</div>
-<div id="ref-lischka2025" class="csl-entry" role="listitem">
-Lischka, Silke, Jan Michels, Lennart Thomas Bach, Katharina Csenteri, Sonja Konschak, and Stanislav N. Gorb. 2025. <span>“Pteropods as Early<span>-</span>Warning Indicators of Ocean Acidification.”</span> <em>Limnology and Oceanography</em> 70 (6): 1651–65. <a href="https://doi.org/10.1002/lno.70079">https://doi.org/10.1002/lno.70079</a>.
-</div>
-<div id="ref-mollica2018" class="csl-entry" role="listitem">
-Mollica, Nathaniel R, Weifu Guo, Anne L Cohen, Kuo-Fang Huang, Gavin L Foster, Hannah K Donald, and Andrew R Solow. 2018. <span>“Ocean Acidification Affects Coral Growth by Reducing Skeletal Density.”</span> <em>Proceedings of the National Academy of Sciences - PNAS</em> 115 (8): 1754–59. <a href="https://doi.org/10.1073/pnas.1712806115">https://doi.org/10.1073/pnas.1712806115</a>.
-</div>
-<div id="ref-orr2005" class="csl-entry" role="listitem">
-Orr, James C., Victoria J. Fabry, Olivier Aumont, Laurent Bopp, Scott C. Doney, Richard A. Feely, Anand Gnanadesikan, et al. 2005. <span>“Anthropogenic Ocean Acidification over the Twenty-First Century and Its Impact on Calcifying Organisms.”</span> <em>Nature</em> 437 (7059): 681–86. <a href="https://doi.org/10.1038/nature04095">https://doi.org/10.1038/nature04095</a>.
-</div>
-<div id="ref-royalsociety2005" class="csl-entry" role="listitem">
-Royal Society. 2005. <em>Ocean acidification due to increasing atmospheric carbon dioxide</em>. Vol. 12/05. Policy Document. London: Royal Society.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -782,13 +612,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./climate_change_impacts.html" class="pagination-link" aria-label="Ocean Acidification">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./noise.html" class="pagination-link" aria-label="&quot;Noise in the marine environment&quot;">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">“Noise in the marine environment”</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

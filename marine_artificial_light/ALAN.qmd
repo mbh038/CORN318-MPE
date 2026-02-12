@@ -1,5 +1,7 @@
 # ALAN - Artificial Light at Night
 
+![Satellite image of artifical light at night in Northern Europe (DMSP)](../figures/ALAN_northern_europe.png)
+
 ![Attenuation in deep and coastal waters of light of various wavelengths (NASA PACE)](../figures/Attenuation_graphs_3fer.png)
 
 For good overviews on the ecological impact of artificial light at night in the marine environment, see Davies *et al*. [-@davies2014] and Marangoni *et al*. [-@marangoni2022].

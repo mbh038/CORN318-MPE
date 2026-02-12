@@ -60,43 +60,103 @@
     ]
   },
   {
-    "objectID": "noise.html",
-    "href": "noise.html",
-    "title": "2  Noise in the marine environment",
+    "objectID": "marine_noise/noise.html",
+    "href": "marine_noise/noise.html",
+    "title": "2  Sound in the marine environment",
     "section": "",
-    "text": "2.1 The nature sound in the marine environment",
+    "text": "2.1 The nature of sound in the marine environment\nSoundscapes: “ambient sound in terms of its spatial, temporal, and frequency attributes, and the types of sources contributing to the sound field”.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sound in the marine environment</span>"
     ]
   },
   {
-    "objectID": "noise.html#the-decibel-scale",
-    "href": "noise.html#the-decibel-scale",
-    "title": "2  Noise in the marine environment",
+    "objectID": "marine_noise/noise.html#the-decibel-scale",
+    "href": "marine_noise/noise.html#the-decibel-scale",
+    "title": "2  Sound in the marine environment",
     "section": "2.2 The decibel scale",
     "text": "2.2 The decibel scale",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sound in the marine environment</span>"
     ]
   },
   {
-    "objectID": "noise.html#sources-of-noise-duarte2021",
-    "href": "noise.html#sources-of-noise-duarte2021",
-    "title": "2  Noise in the marine environment",
+    "objectID": "marine_noise/noise.html#sources-of-noise-duarte2021",
+    "href": "marine_noise/noise.html#sources-of-noise-duarte2021",
+    "title": "2  Sound in the marine environment",
     "section": "2.3 Sources of noise (Duarte et al. 2021)",
     "text": "2.3 Sources of noise (Duarte et al. 2021)\n\nShipping noise\nPile driving\nSeismic airgun\nMilitary sonar\nAcoustic deterrents",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sound in the marine environment</span>"
     ]
   },
   {
-    "objectID": "noise.html#impacts-of-noise",
-    "href": "noise.html#impacts-of-noise",
-    "title": "2  Noise in the marine environment",
-    "section": "2.4 Impacts of noise",
-    "text": "2.4 Impacts of noise\n\nBehavioural change\nDisplacement – ie animals leave an area (Tyack 2008)\nMasking of communication –\nHearing damage - permanent & temporary threshold shift (Mickle et al. 2019)\nStress\nStrandings & death\n\n\n\n\n\nDuarte, Carlos M., Lucille Chapuis, Shaun P. Collin, Daniel P. Costa, Reny P. Devassy, Victor M. Eguiluz, Christine Erbe, et al. 2021. “The Soundscape of the Anthropocene Ocean.” Science 371 (6529): 1–10. https://doi.org/10.1126/science.aba4658.\n\n\nMickle, Megan F., Christopher M. Harris, Oliver P. Love, and Dennis M. Higgs. 2019. “Behavioural and Morphological Changes in Fish Exposed to Ecologically Relevant Boat Noises.” Canadian Journal of Fisheries and Aquatic Sciences 76 (10): 1845–53. https://doi.org/10.1139/cjfas-2018-0258.\n\n\nTyack, Peter L. 2008. “Implications for Marine Mammals of Large-Scale Changes in the Marine Acoustic Environment.” Journal of Mammalogy 89 (3): 549–58. https://doi.org/10.1644/07-MAMM-S-307R.1.",
+    "objectID": "marine_noise/noise.html#impacts-of-anthropogenic-noise-on-marine-life",
+    "href": "marine_noise/noise.html#impacts-of-anthropogenic-noise-on-marine-life",
+    "title": "2  Sound in the marine environment",
+    "section": "2.4 Impacts of anthropogenic noise on marine life",
+    "text": "2.4 Impacts of anthropogenic noise on marine life\n\nBehavioural change\nDisplacement – ie animals leave an area (Tyack 2008)\nMasking of communication\nHearing damage - permanent & temporary threshold shift (Mickle et al. 2019)\nStress\nStrandings & death\n\n\n\n\n\nDuarte, Carlos M., Lucille Chapuis, Shaun P. Collin, Daniel P. Costa, Reny P. Devassy, Victor M. Eguiluz, Christine Erbe, et al. 2021. “The Soundscape of the Anthropocene Ocean.” Science 371 (6529): 1–10. https://doi.org/10.1126/science.aba4658.\n\n\nMickle, Megan F., Christopher M. Harris, Oliver P. Love, and Dennis M. Higgs. 2019. “Behavioural and Morphological Changes in Fish Exposed to Ecologically Relevant Boat Noises.” Canadian Journal of Fisheries and Aquatic Sciences 76 (10): 1845–53. https://doi.org/10.1139/cjfas-2018-0258.\n\n\nTyack, Peter L. 2008. “Implications for Marine Mammals of Large-Scale Changes in the Marine Acoustic Environment.” Journal of Mammalogy 89 (3): 549–58. https://doi.org/10.1644/07-MAMM-S-307R.1.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Noise in the marine environment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sound in the marine environment</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html",
+    "href": "marine_artificial_light/ALAN.html",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "",
+    "text": "3.1 Effects on timing of coral spawning\nFor good overviews on the ecological impact of artificial light at night in the marine environment, see Davies et al. (davies2014?) and Marangoni et al. (marangoni2022?).\nFor a striking specific example of of the extent of the problem, see for example the report Bright Lights Dim Justice (environmentaljusticefoundation2025?) by The Evironmental Justice Foundation on the concentration of hundreds of fishing, boats in the south Atlantic, most of them hunting short fin squid using a technique known as jigging in which very bright lights are shone directly down into the water to attract the squid.\nGaston et al. (gaston2021?) asserts that the biological impacts of ALAN in marine systems seem likely to be at least as diverse as those occurring terrestrially, with evidence already for:\nCorals are known to use broadcast spawning as part of the reproductive cycle. It is important therefore that the release of male and female spawn is synchronised. Some coral species achieve this synchrony by using cycles of light levels determined by phases of the moon. Ayalon et al. (ayalon2021?) show that artifical light at night can drown out this natural signal, causing asynchronous release of spawn and thus loss of reproductive success.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html#invertebrate-settlement",
+    "href": "marine_artificial_light/ALAN.html#invertebrate-settlement",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "3.2 Invertebrate settlement",
+    "text": "3.2 Invertebrate settlement\nSee Davies et al. (davies2015?)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html#behavior-of-pelagic-organisms",
+    "href": "marine_artificial_light/ALAN.html#behavior-of-pelagic-organisms",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "3.3 Behavior of pelagic organisms",
+    "text": "3.3 Behavior of pelagic organisms\nSee Berge et al. (berge2020?)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html#turtle-nesting-and-orientation",
+    "href": "marine_artificial_light/ALAN.html#turtle-nesting-and-orientation",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "3.4 Turtle nesting and orientation",
+    "text": "3.4 Turtle nesting and orientation\nSee (vandersteen2020?)\nSee also Silva et al. 2017; Hu et al. 2018; Vandersteen et al. 2020)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html#seabird-grounding-and-mortality",
+    "href": "marine_artificial_light/ALAN.html#seabird-grounding-and-mortality",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "3.5 Seabird grounding and mortality",
+    "text": "3.5 Seabird grounding and mortality\n(Wiese et al. 2001; Le Corre et al. 2002; Jones and Francis 2003; Rodríguez et al. 2014; Syposz et al. 2018).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
+    ]
+  },
+  {
+    "objectID": "marine_artificial_light/ALAN.html#impacts-on-diel-vertical-migration-of-zooplankton",
+    "href": "marine_artificial_light/ALAN.html#impacts-on-diel-vertical-migration-of-zooplankton",
+    "title": "3  ALAN - Artificial Light at Night",
+    "section": "3.6 Impacts on diel vertical migration of zooplankton",
+    "text": "3.6 Impacts on diel vertical migration of zooplankton\nDiel vertical migration is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, prhaps some 10s of metres further down.\nThis daily migration plays an important part in the functioning of the so-alled biological carbon pump whereby phytoplankton in the surface layers of the ocean photosynthesise and threby capture disovled carbon that has been absorbed from the atmosphoere. The zooplankton prey on these phytoplankton and in maigrating downwards they later excrete this carbon as faeces which, being more dense than seawater, sinks. Thus, this diel migration plays a key role in transferring atmospheric carbon to the ocean bottom where it remains fixed for century long timescales.\nDue to the large number of zooplankton such as krill in the southerh ocean this migration is in fact the greatest on earth in terms of total biomass migrating, bigger even than the large mammal migrations on the African savannahs.\nA concern is that powerful artificial lights at night, shining down from above, may confuse the zooplankton and disrupt this daily migration pattern. Give nthe importance of the migration for the global carbon cycle, this is a potentially grave matter.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ALAN - Artificial Light at Night</span>"
     ]
   },
   {

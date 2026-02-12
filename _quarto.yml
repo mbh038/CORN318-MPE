@@ -12,7 +12,7 @@ book:
     - index.qmd
     - climate_change_impacts.qmd
     - marine_noise/noise.qmd
-    - marine_light/ALAN.qmd
+    - marine_artificial_light/ALAN.qmd
     - references.qmd
 
 bibliography: references.bib

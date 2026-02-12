@@ -11,8 +11,8 @@ book:
   chapters:
     - index.qmd
     - climate_change_impacts.qmd
-    - noise.qmd
-    - light.qmd
+    - marine_noise/noise.qmd
+    - marine_light/ALAN.qmd
     - references.qmd
 
 bibliography: references.bib

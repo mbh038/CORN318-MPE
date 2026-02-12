@@ -1,6 +1,6 @@
 # ALAN - Artificial Light at Night
 
-![Attenuation in deep and coastal waters of light of various wavelengths](figures/Attenuation_graphs_3fer.png)
+![Attenuation in deep and coastal waters of light of various wavelengths](../figures/Attenuation_graphs_3fer.png)
 
 For good overviews on the ecological impact of artificial light at night in the marine environment, see Davies *et al*. [-@davies2014] and Marangoni *et al*. [-@marangoni2022].
 

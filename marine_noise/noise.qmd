@@ -1,7 +1,9 @@
 
-# Noise in the marine environment
+# Sound in the marine environment
 
-## The nature sound in the marine environment
+Soundscapes: "ambient sound in terms of its spatial, temporal, and frequency attributes, and the types of sources contributing to the sound field".
+
+## The nature of sound in the marine environment
 
 ## The decibel scale
 
@@ -13,11 +15,11 @@
 -   Military sonar
 -   Acoustic deterrents
 
-## Impacts of noise
+## Impacts of anthropogenic noise on marine life
 
 -   Behavioural change
 -   Displacement – ie animals leave an area [@tyack2008]
--   Masking of communication –
+-   Masking of communication
 -   Hearing damage - permanent & temporary threshold shift [@mickle2019]
 -   Stress
 -   Strandings & death

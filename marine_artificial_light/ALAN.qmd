@@ -1,5 +1,11 @@
 # ALAN - Artificial Light at Night
 
+```{r}
+library(tidyverse)
+library(here)
+```
+
+
 ![Satellite image of artifical light at night in Northern Europe (DMSP)](../figures/ALAN_northern_europe.png)
 
 ![Attenuation in deep and coastal waters of light of various wavelengths (NASA PACE)](../figures/Attenuation_graphs_3fer.png)
@@ -38,9 +44,20 @@ Grounding of thousands of newly fledged petrels and shearwaters (family Procella
 
 Syposz et al. [@syposz2018] investigated a combination of several factors that may influence the number of Manx Shearwater *Puffinus puffinus* groundings in a coastal village of Scotland located close to a nesting site for this species.
 
-## Impacts on diel vertical migration of zooplankton
+## Impacts on diel vertical migration (DVM) of zooplankton
 
-Diel vertical migration is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, prhaps some 10s of metres further down.
+Diel vertical migration (DVM) is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, perhaps some 10s of metres or even a couple of hundred metres further down.
+
+THis is illustrated in @fig-diel-vertical-migration which shows this phenomenon being tracked by satellite. The sacle of DVM means that satellite imaging is the only practicable way to track it.
+
+```{r}
+#| label: fig-diel-vertical-migration
+#| fig-cap: "This echogram illustrates the ascending and descending phases of the diel vertical migration through the water column. The yellows and reds are indicative of the greatest density of animals. Image courtesy of DEEP SEARCH – BOEM, USGS, NOAA"
+# 
+myimages<-here("figures","diel_migration_nasa.jpg")
+knitr::include_graphics(myimages)
+```
+
 
 This daily migration plays an important part in the functioning of the so-alled **biological carbon pump** whereby phytoplankton in the surface layers of the ocean photosynthesise and threby capture disovled carbon that has been absorbed from the atmosphoere. The zooplankton prey on these phytoplankton and in maigrating downwards they later excrete this carbon as faeces which, being more dense than seawater, sinks. Thus, this diel migration plays a key role in transferring atmospheric carbon to the ocean bottom where it remains fixed for century long timescales.
 

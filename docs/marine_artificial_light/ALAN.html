@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -171,7 +205,7 @@ div.csl-indent {
   <li><a href="#behavior-of-pelagic-organisms" id="toc-behavior-of-pelagic-organisms" class="nav-link" data-scroll-target="#behavior-of-pelagic-organisms"><span class="header-section-number">3.3</span> Behavior of pelagic organisms</a></li>
   <li><a href="#turtle-nesting-and-orientation" id="toc-turtle-nesting-and-orientation" class="nav-link" data-scroll-target="#turtle-nesting-and-orientation"><span class="header-section-number">3.4</span> Turtle nesting and orientation</a></li>
   <li><a href="#seabird-grounding-and-mortality" id="toc-seabird-grounding-and-mortality" class="nav-link" data-scroll-target="#seabird-grounding-and-mortality"><span class="header-section-number">3.5</span> Seabird grounding and mortality</a></li>
-  <li><a href="#impacts-on-diel-vertical-migration-of-zooplankton" id="toc-impacts-on-diel-vertical-migration-of-zooplankton" class="nav-link" data-scroll-target="#impacts-on-diel-vertical-migration-of-zooplankton"><span class="header-section-number">3.6</span> Impacts on diel vertical migration of zooplankton</a></li>
+  <li><a href="#impacts-on-diel-vertical-migration-dvm-of-zooplankton" id="toc-impacts-on-diel-vertical-migration-dvm-of-zooplankton" class="nav-link" data-scroll-target="#impacts-on-diel-vertical-migration-dvm-of-zooplankton"><span class="header-section-number">3.6</span> Impacts on diel vertical migration (DVM) of zooplankton</a></li>
   </ul>
 </nav>
     </div>
@@ -197,6 +231,25 @@ div.csl-indent {
 </header>
 
 
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.6
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.1     ✔ tibble    3.3.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.2
+✔ purrr     1.2.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at /Users/michaelhunt/git_repos/CORN318-MPE</code></pre>
+</div>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../figures/ALAN_northern_europe.png" class="img-fluid figure-img"></p>
@@ -236,9 +289,27 @@ div.csl-indent {
 <p>Grounding of thousands of newly fledged petrels and shearwaters (family Procellariidae) in built-up areas due to artificial light is a global problem. Due to their anatomy these grounded birds find it difficult to take off from built-up areas and many fall victim to predation, cars, dehydration or starvation.</p>
 <p>Syposz et al. <span class="citation" data-cites="syposz2018">(<a href="../references.html#ref-syposz2018" role="doc-biblioref">Syposz et al. 2018</a>)</span> investigated a combination of several factors that may influence the number of Manx Shearwater <em>Puffinus puffinus</em> groundings in a coastal village of Scotland located close to a nesting site for this species.</p>
 </section>
-<section id="impacts-on-diel-vertical-migration-of-zooplankton" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="impacts-on-diel-vertical-migration-of-zooplankton"><span class="header-section-number">3.6</span> Impacts on diel vertical migration of zooplankton</h2>
-<p>Diel vertical migration is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, prhaps some 10s of metres further down.</p>
+<section id="impacts-on-diel-vertical-migration-dvm-of-zooplankton" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="impacts-on-diel-vertical-migration-dvm-of-zooplankton"><span class="header-section-number">3.6</span> Impacts on diel vertical migration (DVM) of zooplankton</h2>
+<p>Diel vertical migration (DVM) is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, perhaps some 10s of metres or even a couple of hundred metres further down.</p>
+<p>THis is illustrated in <a href="#fig-diel-vertical-migration" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> which shows this phenomenon being tracked by satellite. The sacle of DVM means that satellite imaging is the only practicable way to track it.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>myimages<span class="ot">&lt;-</span><span class="fu">here</span>(<span class="st">"figures"</span>,<span class="st">"diel_migration_nasa.jpg"</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(myimages)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="fig-diel-vertical-migration" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-diel-vertical-migration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../figures/diel_migration_nasa.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-diel-vertical-migration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: This echogram illustrates the ascending and descending phases of the diel vertical migration through the water column. The yellows and reds are indicative of the greatest density of animals. Image courtesy of DEEP SEARCH – BOEM, USGS, NOAA
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>This daily migration plays an important part in the functioning of the so-alled <strong>biological carbon pump</strong> whereby phytoplankton in the surface layers of the ocean photosynthesise and threby capture disovled carbon that has been absorbed from the atmosphoere. The zooplankton prey on these phytoplankton and in maigrating downwards they later excrete this carbon as faeces which, being more dense than seawater, sinks. Thus, this diel migration plays a key role in transferring atmospheric carbon to the ocean bottom where it remains fixed for century long timescales.</p>
 <p>Due to the large number of zooplankton such as krill in the southerh ocean this migration is in fact the <strong>greatest on earth</strong> in terms of total biomass migrating, bigger even than the large mammal migrations on the African savannahs.</p>
 <p>A concern is that powerful artificial lights at night, shining down from above, may confuse the zooplankton and disrupt this daily migration pattern. Give nthe importance of the migration for the global carbon cycle, this is a potentially grave matter.</p>

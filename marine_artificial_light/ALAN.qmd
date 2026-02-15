@@ -50,7 +50,7 @@ Diel vertical migration (DVM) is the daily vertical migration up and down the wa
 
 THis is illustrated in @fig-diel-vertical-migration which shows this phenomenon being tracked by satellite. The sacle of DVM means that satellite imaging is the only practicable way to track it.
 
-```{r}
+```{r, include = FALSE}
 #| label: fig-diel-vertical-migration
 #| fig-cap: "This echogram illustrates the ascending and descending phases of the diel vertical migration through the water column. The yellows and reds are indicative of the greatest density of animals. Image courtesy of DEEP SEARCH – BOEM, USGS, NOAA"
 # 

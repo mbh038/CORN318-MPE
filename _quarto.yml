@@ -25,3 +25,8 @@ format:
 
 editor: visual
 
+execute: 
+  message: false
+  warning: false
+  echo: false
+

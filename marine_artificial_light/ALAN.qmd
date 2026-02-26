@@ -59,7 +59,7 @@ knitr::include_graphics(myimages)
 ```
 
 
-This daily migration plays an important part in the functioning of the so-alled **biological carbon pump** whereby phytoplankton in the surface layers of the ocean photosynthesise and threby capture disovled carbon that has been absorbed from the atmosphoere. The zooplankton prey on these phytoplankton and in maigrating downwards they later excrete this carbon as faeces which, being more dense than seawater, sinks. Thus, this diel migration plays a key role in transferring atmospheric carbon to the ocean bottom where it remains fixed for century long timescales.
+This daily migration plays an important part in the functioning of the so-called **biological carbon pump** whereby phytoplankton in the surface layers of the ocean photosynthesise and threby capture disovled carbon that has been absorbed from the atmosphoere. The zooplankton prey on these phytoplankton and in maigrating downwards they later excrete this carbon as faeces which, being more dense than seawater, sinks. Thus, this diel migration plays a key role in transferring atmospheric carbon to the ocean bottom where it remains fixed for century long timescales.
 
 Due to the large number of zooplankton such as krill in the southerh ocean this migration is in fact the **greatest on earth** in terms of total biomass migrating, bigger even than the large mammal migrations on the African savannahs.
 

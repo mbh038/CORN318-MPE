@@ -13,7 +13,8 @@ book:
     - climate_change_impacts.qmd
     - marine_noise/noise.qmd
     - marine_artificial_light/ALAN.qmd
-    - marine_plastics.qmd
+    - marine_plastics/marine_plastics.qmd
+    - marine_plastics/marine_plastics_impacts.qmd
     - references.qmd
 
 bibliography: references.bib

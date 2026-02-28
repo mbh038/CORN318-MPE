@@ -1,5 +1,4 @@
-# Land-Based Plastic Waste as a Primary Source of Marine Pollution
-
+# Source of Marine Plastics Pollution
 
 ```{r}
 #| include: false
@@ -70,15 +69,14 @@ Source: [@jambeck2015]
 
 While initial estimates focused on waste generated in coastal zones, further research, for example by Schmid and co-workers [-@schmidt2017] has established that rivers are a major transport pathway, connecting vast inland populations and their waste to the marine environment. They found that:
 
-* Global River Input Estimate: Based on observed plastic loads, rivers are estimated to transport between 0.41 and 4 million MT of plastic into the sea annually. The wide range of this estimate is due to high uncertainty from sparse and heterogeneous data.
-*Nonlinear Relationship: The amount of plastic transported by a river is positively but nonlinearly related to the amount of mismanaged plastic waste (MMPW) generated in its catchment. This means that large rivers with population-rich catchments deliver a disproportionately higher fraction of their available MMPW into the sea. This relationship is demonstrated by a log-log linear regression slope greater than 1.
+-   Global River Input Estimate: Based on observed plastic loads, rivers are estimated to transport between 0.41 and 4 million MT of plastic into the sea annually. The wide range of this estimate is due to high uncertainty from sparse and heterogeneous data. \*Nonlinear Relationship: The amount of plastic transported by a river is positively but nonlinearly related to the amount of mismanaged plastic waste (MMPW) generated in its catchment. This means that large rivers with population-rich catchments deliver a disproportionately higher fraction of their available MMPW into the sea. This relationship is demonstrated by a log-log linear regression slope greater than 1.
 
 ### Disproportionate Contribution from Major Rivers
 
 A critical finding is the highly concentrated nature of riverine plastic emissions. The disproportional transport dynamics mean that a small number of rivers are responsible for the vast majority of the global plastic load.
 
-* Top 10 Rivers: The 10 top-ranked rivers are calculated to transport 88% to 95% of the total global plastic load that enters the sea via rivers.
-* Geographic Concentration: Eight of these top ten highest-load catchments are located in Asia, reflecting the convergence of large populations and high rates of MMPW generation in these regions.
+-   Top 10 Rivers: The 10 top-ranked rivers are calculated to transport 88% to 95% of the total global plastic load that enters the sea via rivers.
+-   Geographic Concentration: Eight of these top ten highest-load catchments are located in Asia, reflecting the convergence of large populations and high rates of MMPW generation in these regions.
 
 This concentration suggests that plastic accumulation is a significant issue within river systems themselves, with debris being retained on river banks and in bed sediments before eventual transport to the ocean.
 
@@ -94,10 +92,10 @@ Assuming no improvements in waste management infrastructure, the cumulative quan
 
 The concentration of plastic sources in specific countries and river basins presents an opportunity for highly targeted and effective interventions.
 
-* Improving Waste Management: This is identified as a paramount strategy. A 50% improvement in waste management (i.e., a 50% reduction in mismanaged waste) in the top 20 countries would decrease the total mass of mismanaged plastic waste by 41% by 2025.
-* Targeting Key Rivers: Given their outsized role, focusing on the highest-polluting rivers is highly efficient. Reducing the plastic loads by 50% in the 10 top-ranked rivers would reduce the total global river-based load to the sea by 45%.
-* Reducing Waste Generation: An alternative strategy involves reducing waste generation and plastic use, primarily targeting higher-income countries. Capping per capita waste generation and the percentage of plastic in the waste stream in the 91 countries that exceed the 2010 average would achieve a 26% decrease by 2025.
-* Combined Strategy: A 77% reduction in annual plastic input to the ocean could be realized by 2025 through a combined strategy of achieving 0% mismanaged waste in the 10 top-ranked countries and capping plastic waste generation globally.
+-   Improving Waste Management: This is identified as a paramount strategy. A 50% improvement in waste management (i.e., a 50% reduction in mismanaged waste) in the top 20 countries would decrease the total mass of mismanaged plastic waste by 41% by 2025.
+-   Targeting Key Rivers: Given their outsized role, focusing on the highest-polluting rivers is highly efficient. Reducing the plastic loads by 50% in the 10 top-ranked rivers would reduce the total global river-based load to the sea by 45%.
+-   Reducing Waste Generation: An alternative strategy involves reducing waste generation and plastic use, primarily targeting higher-income countries. Capping per capita waste generation and the percentage of plastic in the waste stream in the 91 countries that exceed the 2010 average would achieve a 26% decrease by 2025.
+-   Combined Strategy: A 77% reduction in annual plastic input to the ocean could be realized by 2025 through a combined strategy of achieving 0% mismanaged waste in the 10 top-ranked countries and capping plastic waste generation globally.
 
 ## Broader Context and Knowledge Gaps
 
@@ -107,9 +105,9 @@ The influx of plastic into the ocean is a direct consequence of the material's p
 
 The problem is rooted in the exponential growth of plastics production, which has increased from less than 50 million MT per year in the 1970s to 311 million MT in 2014.
 
-* Packaging Dominance: The largest market demand for plastics is for packaging materials, which are designed for short-term use and immediate disposal.
-* Low Recovery Rates: Despite the recyclability of many plastics, recovery rates remain low. In 2012, only an estimated 8.8% of postconsumer plastics were recovered for recycling in the United States; in Europe, the rate was 30% in 2014.
-* Persistence: Plastics are synthetic organic polymers that are resistant to biodegradation, making them a persistent form of litter in the marine environment.
+-   Packaging Dominance: The largest market demand for plastics is for packaging materials, which are designed for short-term use and immediate disposal.
+-   Low Recovery Rates: Despite the recyclability of many plastics, recovery rates remain low. In 2012, only an estimated 8.8% of postconsumer plastics were recovered for recycling in the United States; in Europe, the rate was 30% in 2014.
+-   Persistence: Plastics are synthetic organic polymers that are resistant to biodegradation, making them a persistent form of litter in the marine environment.
 
 ### Environmental Fragmentation
 
@@ -119,6 +117,6 @@ Once in the marine environment, particularly when exposed to sunlight at the sea
 
 While the scale of the problem is becoming clearer, significant knowledge gaps remain:
 
-* Data Scarcity and Standardization: There is a lack of standardized methodologies for sampling and analyzing plastic debris across different marine reservoirs (sea surface, water column, seafloor, etc.), which hinders global-scale assessments.
-* Refining Input Estimates: Estimates of plastic inputs from land and rivers are based on models that require more empirical data for validation, including direct measurements of waste transport by rivers, wind, and tides.
-* Fate of Marine Plastics: The discrepancy between the high estimated inputs and lower observed quantities of floating plastic (the "missing plastic" problem) highlights the need to better understand the fragmentation, transport, and ultimate sinks (e.g., seafloor, biota, sediments) of plastic in the marine environment.
+-   Data Scarcity and Standardization: There is a lack of standardized methodologies for sampling and analyzing plastic debris across different marine reservoirs (sea surface, water column, seafloor, etc.), which hinders global-scale assessments.
+-   Refining Input Estimates: Estimates of plastic inputs from land and rivers are based on models that require more empirical data for validation, including direct measurements of waste transport by rivers, wind, and tides.
+-   Fate of Marine Plastics: The discrepancy between the high estimated inputs and lower observed quantities of floating plastic (the "missing plastic" problem) highlights the need to better understand the fragmentation, transport, and ultimate sinks (e.g., seafloor, biota, sediments) of plastic in the marine environment.

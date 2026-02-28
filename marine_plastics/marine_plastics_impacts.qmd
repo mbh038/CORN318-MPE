@@ -1,7 +1,4 @@
----
-title: "Marine Plastics impacts"
----
-
+# Marine Plastics impacts
 
 ```{r}
 #| include: false
@@ -9,7 +6,7 @@ source(here::here("_common.R"))
 ```
 
 ```{r, include = FALSE}
-knitr::opts_chunk$set(message=FALSE, warning = FALSE, echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## What's the harm?

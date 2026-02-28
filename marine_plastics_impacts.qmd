@@ -1,0 +1,22 @@
+---
+title: "Marine Plastics impacts"
+---
+
+
+```{r}
+#| include: false
+source(here::here("_common.R"))
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(message=FALSE, warning = FALSE, echo = FALSE)
+```
+
+## What's the harm?
+
+```{r}
+#| label: fig-whats-the-harm
+knitr::include_graphics(here("figures","whats_the_harm.png"))
+```
+
+Impacts on Primary Producers

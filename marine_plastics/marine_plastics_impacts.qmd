@@ -36,4 +36,16 @@ Prata et al [-@prata2019] find various evidence in the literature for impacts of
 knitr::include_graphics(here("figures","prata_2019.jpg"))
 ```
 
+```{r}
+#| label: fig-sendra-2019
+#| fig-cap: "Impacts of marine microplastics on the diatom *Phaeodactylum tricornutum*. From [@sendra2019]"
 
+knitr::include_graphics(here("figures","sendra_2019.jpg"))
+```
+
+```{r}
+#| label: fig-botterell-2019
+#| fig-cap: "The various factors that affect the impact of marine microplastics on zooplankton. From [@botterell2019]"
+
+knitr::include_graphics(here("figures","botterell_2019.jpg"))
+```

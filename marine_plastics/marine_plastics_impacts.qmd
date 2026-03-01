@@ -27,6 +27,8 @@ knitr::include_graphics(here("figures","whats_the_harm.png"))
 
 ### Primary producers
 
+**Microalgae**
+
 Prata et al [-@prata2019] find various evidence in the literature for impacts of microplastics on microalgae at the individual and population level.
 
 ```{r}
@@ -36,13 +38,14 @@ Prata et al [-@prata2019] find various evidence in the literature for impacts of
 knitr::include_graphics(here("figures","prata_2019.jpg"))
 ```
 
+**Zooplankton**
+
 ```{r}
 #| label: fig-sendra-2019
 #| fig-cap: "Impacts of marine microplastics on the diatom *Phaeodactylum tricornutum*. From [@sendra2019]"
 
 knitr::include_graphics(here("figures","sendra_2019.jpg"))
 ```
-
 
 ```{r}
 #| label: fig-cole-2013
@@ -58,7 +61,6 @@ knitr::include_graphics(here("figures","cole_2013.jpg"))
 knitr::include_graphics(here("figures","coppock_2019.jpg"))
 ```
 
-
 ```{r}
 #| label: fig-coppock-fig2-2019
 #| fig-cap: "Microplastics alter feeding selectivity and faecal density in the copepod, *Calanus helgolandicus*. From [@coppock2019]"
@@ -68,7 +70,6 @@ knitr::include_graphics(here("figures","coppock_fig2_2019.jpg"))
 
 Exposure to nylon fibres resulted in a 6% decrease in ingestion of similar shaped chain-forming algae,whilst exposure to nylon fragments led to an 8% decrease in ingestion of a unicellular algae that were similar in shape and size.
 
-
 ```{r}
 #| label: fig-botterell-2019
 #| fig-cap: "The various factors that affect the impact of marine microplastics on zooplankton. From [@botterell2019]"
@@ -77,3 +78,12 @@ knitr::include_graphics(here("figures","botterell_2019.jpg"))
 ```
 
 [@coppock2019]
+
+**Corals**
+
+```{r}
+#| label: fig-soares-2020
+#| fig-cap: "Impacts of microplastics on corals. From [@soares2020]"
+
+knitr::include_graphics(here("figures","soares_2020_abstract.jpg"))
+```

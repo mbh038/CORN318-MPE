@@ -56,3 +56,12 @@ knitr::include_graphics(here("figures","botterell_2019.jpg"))
 
 knitr::include_graphics(here("figures","cole_2013.jpg"))
 ```
+
+```{r}
+#| label: fig-coppock-2019
+#| fig-cap: "Microplastics alter feeding selectivity and faecal density in the copepod, *Calanus helgolandicus*. From [@coppock2019]"
+
+knitr::include_graphics(here("figures","coppock_2019.jpg"))
+```
+
+[@coppock2019]

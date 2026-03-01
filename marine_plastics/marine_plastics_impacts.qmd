@@ -13,22 +13,27 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Microplastics can bring harm to marine organisms in a variety off ways:
 
-* Chemical leaching: Plastics are organic polymers that are often impregnated with additional compunds that givve them particular properties, such as colour and fire retardence. These chemical may be toxic and may become detached from the host polymer molecules.
-*Chemical adsorbence: Their large surface area to volume ratio means that microplastics can attract to themselves toxic molecules that stick to their surfaces.
-* Entanglement: Abandoned or 'ghost'  fishing tackle can entangle marine organisms.
-* Ingestion: Ingestion of microplatics can have various effects, such as simply blocking intestinal tracts, altering of bouyancy, supperssion of appetite and more.
+-   Chemical leaching: Plastics are organic polymers that are often impregnated with additional compunds that givve them particular properties, such as colour and fire retardence. These chemical may be toxic and may become detached from the host polymer molecules.
+-   Chemical adsorbence: Their large surface area to volume ratio means that microplastics can attract to themselves toxic molecules that stick to their surfaces.
+-   Entanglement: Abandoned or 'ghost' fishing tackle can entangle marine organisms.
+-   Ingestion: Ingestion of microplatics can have various effects, such as simply blocking intestinal tracts, altering of bouyancy, supperssion of appetite and more.
 
 ```{r}
 #| label: fig-whats-the-harm
 knitr::include_graphics(here("figures","whats_the_harm.png"))
 ```
 
-Impacts on Primary Producers
+## Which organisms are affected?
+
+### Primary producers
+
+Prata et al [-@prata2019] find various evidence in the literature for impacts of microplastics on microalgae at the individual and population level.
 
 ```{r}
 #| label: fig-prata-2019
-#| fig-cap: "The rnage of impacts of microplastics on primary miroalgae at the population and individual level"
+#| fig-cap: "The range of impacts of microplastics on primary miroalgae at the population and individual level. From [@prata2019]"
 
 knitr::include_graphics(here("figures","prata_2019.jpg"))
 ```
+
 

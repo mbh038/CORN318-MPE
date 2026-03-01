@@ -38,7 +38,6 @@ Prata et al [-@prata2019] find various evidence in the literature for impacts of
 knitr::include_graphics(here("figures","prata_2019.jpg"))
 ```
 
-**Zooplankton**
 
 ```{r}
 #| label: fig-sendra-2019
@@ -46,6 +45,8 @@ knitr::include_graphics(here("figures","prata_2019.jpg"))
 
 knitr::include_graphics(here("figures","sendra_2019.jpg"))
 ```
+
+**Zooplankton**
 
 ```{r}
 #| label: fig-cole-2013
@@ -63,7 +64,7 @@ knitr::include_graphics(here("figures","coppock_2019.jpg"))
 
 ```{r}
 #| label: fig-coppock-fig2-2019
-#| fig-cap: "Microplastics alter feeding selectivity and faecal density in the copepod, *Calanus helgolandicus*. From [@coppock2019]"
+#| fig-cap: "Images of contaminated C. helgolandicus faecal pellets (a–c) after exposure to solutions containing mixed algal assemblage and a) nylon fibres, b) PE spheres and c) PET fibres and C. helgolandicus with fluorescently labelled nylon fibres (d) in digestive tract and (e) being formed into a faecal pellet in the hind gut. All exposures at concentrations of 100 microplastics mL−1 with an algae to plastic ratio of 2:1. From [@coppock2019]"
 
 knitr::include_graphics(here("figures","coppock_fig2_2019.jpg"))
 ```
@@ -76,8 +77,6 @@ Exposure to nylon fibres resulted in a 6% decrease in ingestion of similar shape
 
 knitr::include_graphics(here("figures","botterell_2019.jpg"))
 ```
-
-[@coppock2019]
 
 **Corals**
 

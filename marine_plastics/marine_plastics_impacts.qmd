@@ -49,3 +49,10 @@ knitr::include_graphics(here("figures","sendra_2019.jpg"))
 
 knitr::include_graphics(here("figures","botterell_2019.jpg"))
 ```
+
+```{r}
+#| label: fig-cole-2013
+#| fig-cap: "Microplastic ingestion by zooplankton. Figure 1. Microplastics of different sizes can be ingested, egested and adhere to a range of zooplankton, as visualized using fluorescence microscopy:(i) the copepod Centropages typicus containing 7.3 μm polystyrene (PS) beads (dorsal view); (ii) the copepod Calanus helgolandicus containing 20.6  μm PS beads (lateral view); (iii) a D-stage bivalve larvae containing 7.3 μm PS beads (dorsal view); (iv) a Brachyuran (decapod) larvae (zoea stage) containing 20.6 μm PS beads (lateral view); (v) a Porcellanid (decapod) larvae, containing 30.6 μm PS beads (lateral view); (vi) 30.6 μm PS beads in the posterior-gut of the copepod Temora longicornis during egestion, (vii) 1.4 μm PS beads trapped between the filamental hairs of the furca of C. typicus; (viii) a T. longicornis faecal pellet containing 30.6 μm PS beads. From [@cole2013]"
+
+knitr::include_graphics(here("figures","cole_2013.jpg"))
+```

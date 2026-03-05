@@ -58,7 +58,7 @@ Syposz et al. [@syposz2018] investigated a combination of several factors that m
 
 Diel vertical migration (DVM) is the daily vertical migration up and down the water by zooplankton and other species in both marine and freshwater lake environments. During the night the zooplankton migrate towards the surface in search of the phytoplankton on which they feed. As day comes the sunlight shining from above means that they become visible to predators such as fish who mainly hunt by visual signals. To defend against this they migrate downwards to deeper, darker waters, perhaps some 10s of metres or even a couple of hundred metres further down.
 
-THis is illustrated in @fig-diel-vertical-migration which shows this phenomenon being tracked by satellite. The sacle of DVM means that satellite imaging is the only practicable way to track it.
+This is illustrated in @fig-diel-vertical-migration which shows this phenomenon being tracked by satellite. The sacle of DVM means that satellite imaging is the only practicable way to track it.
 
 ```{r}
 #| label: fig-diel-vertical-migration

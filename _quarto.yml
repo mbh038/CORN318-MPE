@@ -15,6 +15,7 @@ book:
     - marine_artificial_light/ALAN.qmd
     - marine_plastics/marine_plastics.qmd
     - marine_plastics/marine_plastics_impacts.qmd
+    - marine_metals/marine_metals_case_studies.qmd
     - references.qmd
 
 bibliography: references.bib

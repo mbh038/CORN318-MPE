@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What's the harm?
 
-Microplastics can bring harm to marine organisms in a variety off ways:
+Microplastics can bring harm to marine organisms in a variety of ways:
 
 -   Chemical leaching: Plastics are organic polymers that are often impregnated with additional compunds that givve them particular properties, such as colour and fire retardence. These chemical may be toxic and may become detached from the host polymer molecules.
 -   Chemical adsorbence: Their large surface area to volume ratio means that microplastics can attract to themselves toxic molecules that stick to their surfaces.
@@ -27,6 +27,10 @@ knitr::include_graphics(here("figures","whats_the_harm.png"))
 
 ### Primary producers
 
+These can be affected in numerous ways: ingested microplastics can replace actual food, they cause blocking of internal tracts and affect buoyancy, among other things.
+
+The following papers give a flavour of this:
+
 **Microalgae**
 
 Prata et al [-@prata2019] find various evidence in the literature for impacts of microplastics on microalgae at the individual and population level.
@@ -38,7 +42,6 @@ Prata et al [-@prata2019] find various evidence in the literature for impacts of
 knitr::include_graphics(here("figures","prata_2019.jpg"))
 ```
 
-
 ```{r}
 #| label: fig-sendra-2019
 #| fig-cap: "Impacts of marine microplastics on the diatom *Phaeodactylum tricornutum*. From [@sendra2019]"
@@ -48,12 +51,16 @@ knitr::include_graphics(here("figures","sendra_2019.jpg"))
 
 **Zooplankton**
 
+Cole and co-workers [-@cole2013] found that microplastics of different sizes can be ingested, egested and adhere to a range of zooplankton
+
 ```{r}
 #| label: fig-cole-2013
 #| fig-cap: "Microplastic ingestion by zooplankton. Figure 1. Microplastics of different sizes can be ingested, egested and adhere to a range of zooplankton, as visualized using fluorescence microscopy:(i) the copepod Centropages typicus containing 7.3 μm polystyrene (PS) beads (dorsal view); (ii) the copepod Calanus helgolandicus containing 20.6  μm PS beads (lateral view); (iii) a D-stage bivalve larvae containing 7.3 μm PS beads (dorsal view); (iv) a Brachyuran (decapod) larvae (zoea stage) containing 20.6 μm PS beads (lateral view); (v) a Porcellanid (decapod) larvae, containing 30.6 μm PS beads (lateral view); (vi) 30.6 μm PS beads in the posterior-gut of the copepod Temora longicornis during egestion, (vii) 1.4 μm PS beads trapped between the filamental hairs of the furca of C. typicus; (viii) a T. longicornis faecal pellet containing 30.6 μm PS beads. From [@cole2013]"
 
 knitr::include_graphics(here("figures","cole_2013.jpg"))
 ```
+
+Coppock and co-workers [-@coppock2019] found that microplastics alter feeding selectivity and faecal density in the copepod *Calanus helgolandicus.*
 
 ```{r}
 #| label: fig-coppock-2019
@@ -71,6 +78,8 @@ knitr::include_graphics(here("figures","coppock_fig2_2019.jpg"))
 
 Exposure to nylon fibres resulted in a 6% decrease in ingestion of similar shaped chain-forming algae,whilst exposure to nylon fragments led to an 8% decrease in ingestion of a unicellular algae that were similar in shape and size.
 
+A review by Botterell and co-workers [@botterell2019] found that several physical and biological factors can influence the bioavailability of microplastics to zooplankton, such as size, shape, age and abundance.
+
 ```{r}
 #| label: fig-botterell-2019
 #| fig-cap: "The various factors that affect the impact of marine microplastics on zooplankton. From [@botterell2019]"
@@ -86,3 +95,7 @@ knitr::include_graphics(here("figures","botterell_2019.jpg"))
 
 knitr::include_graphics(here("figures","soares_2020_abstract.jpg"))
 ```
+
+## Secondary Consumers
+
+..and so on up the food chain.

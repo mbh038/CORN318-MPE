@@ -1,7 +1,3 @@
----
-bibliography: references.bib
----
-
 # Biomarkers and Bioindicators
 
 ## **Bioindicator**

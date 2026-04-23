@@ -1,4 +1,30 @@
-# Impacts of Marine metals
+# Marine metals
+
+--- 
+Heavy metals are defined as naturally occurring metallic elements that have a relatively high density compared to water
+
+They are found throughout the Earth’s crust, but pollution is primarily caused by anthropogenic activities which increase the concentration and level of exposure.
+
+---
+They are **conservatie pollutants**
+
+* Not subject to bacterial attack 
+
+* Plants and animals vary in their ability to regulate their metal content.  
+
+* Most can do so over a limited range – metals not excreted remain in the body and accumulate with continued exposure – **bioaccumulation**
+
+* Animals that consume bioaccumulators  have a diet enriched with conservative contaminants  = **biomagnification**
+
+---
+
+## Essential and non-essential metals
+
+
+
+
+
+## Impacts of Marine metals
 
 ```{r}
 #| include: false
@@ -8,28 +34,9 @@ source(here::here("_common.R"))
 ```{r, include = FALSE}
 knitr::opts_chunk$set(message=FALSE, warning = FALSE, echo = FALSE)
 ```
+## Case Studies
 
-## Fal Estuary
-
-The Fal Estuary in southwest England has been contaminated by copper, zinc, arsenic, and tin from over 2,000 years of tin and copper mining in the surrounding area, with peak industrial activity in the 18th–19th centuries. It remains one of the most metal-contaminated estuaries in Europe.
-
-### Organism Level
-
-The amphipod crustacean *Corophium volutator* and the bivalve *Mytilus edulis* (the common mussel) show measurable physiological stress responses. Mussels in the Fal accumulate copper concentrations in their tissues orders of magnitude above background levels, triggering detoxification pathways involving metallothionein proteins. Elevated copper disrupts enzyme function, impairs reproduction, and causes gill damage. Studies have also found reduced fertilisation success and larval abnormalities in invertebrates exposed to Fal sediment porewater.
-
-### Community Level
-
-Benthic invertebrate communities in the upper estuary show significantly reduced species richness compared to reference estuaries. Metal-sensitive taxa — particularly certain polychaete worms and amphipods — are absent or greatly reduced, while tolerant species such as the polychaete *Nereis diversicolor* dominate. This species is notably metal-tolerant and has evolved local adaptations to elevated copper, effectively making it a pollution indicator. The result is a simplified, low-diversity community with altered trophic structure.
-
-### Ecosystem Level
-
-The loss of diverse filter feeders and deposit feeders alters sediment bioturbation and nutrient cycling. Reduced bioturbation means metals remain more concentrated in surface sediments rather than being mixed and diluted — a feedback loop that maintains contamination. The food web is compressed, with fewer trophic pathways available to higher consumers such as wading birds and flatfish. Ecosystem function — particularly secondary production and organic matter processing — is measurably impaired relative to clean estuaries.
-
-Here are two well-documented case studies illustrating the impact of heavy metals in marine environments across different scales of biological organisation.
-
-------------------------------------------------------------------------
-
-## Case Study 1: The Fal Estuary, Cornwall, UK 
+### The Fal Estuary, Cornwall, UK 
 
 The Fal Estuary in southwest England has been contaminated by copper, zinc, arsenic, and tin from over 2,000 years of tin and copper mining in the surrounding area, with peak industrial activity in the 18th–19th centuries. It remains one of the most metal-contaminated estuaries in Europe. [@rainbow2020]
 
@@ -45,9 +52,7 @@ Benthic invertebrate communities in the upper estuary show significantly reduced
 
 The loss of diverse filter feeders and deposit feeders alters sediment bioturbation and nutrient cycling. Reduced bioturbation means metals remain more concentrated in surface sediments rather than being mixed and diluted — a feedback loop that maintains contamination. The food web is compressed, with fewer trophic pathways available to higher consumers such as wading birds and flatfish. Ecosystem function — particularly secondary production and organic matter processing — is measurably impaired relative to clean estuaries.
 
-------------------------------------------------------------------------
-
-## Case Study 2: Minamata Bay, Japan 
+### Minamata Bay, Japan 
 
 ```{r}
 #| label: fig-minimata-map
@@ -70,8 +75,6 @@ Fish and invertebrate communities in the bay collapsed. Pelagic and demersal fis
 **Ecosystem Level**
 
 Mercury persisted in sediments for decades, acting as a long-term internal source of contamination even after discharges ceased. Ecosystem recovery was extremely slow due to continued methylation and re-release of mercury from the sediment pool. The cascading loss of consumers altered primary production dynamics, as reduced grazing pressure on phytoplankton led to imbalanced algal growth. At the human level, over 2,000 people were officially diagnosed with "Minamata disease" (severe methylmercury poisoning), with thousands more affected. The case directly led to the **Minamata Convention on Mercury** (2013), a global treaty to control mercury emissions.
-
-------------------------------------------------------------------------
 
 ## Summary Table
 

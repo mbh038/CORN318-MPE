@@ -1,0 +1,41 @@
+---
+bibliography: references.bib
+---
+
+# Biomarkers and Bioindicators
+
+## **Bioindicator**
+
+A species or community whose characteristics show the presence of specific environmental conditions
+
+## Attributes of useful biomarkers
+
+-   widespread distribution
+
+-   abundance
+
+-   easy sampling
+
+-   easy taxonomic identification
+
+-   stationary
+
+-   moderate tolerance to pollution.\
+
+## Recommended Biomarkers
+
+Sensitive and low-cost biomarkers were included in the mussel component of integrated monitoring frameworks (e.g. [@unep/map2005;@vethaak2017]) Both these biomarkers (LMS and SoS) indicate general stress responses including chemical pollutants and provide simple and sensitive indicators of environmental quality [@dezwaan1995;@moore2006].
+
+### Lysosomal Membrane Stability (LMS)
+
+Can be measured using the in vivo neutral red retention (NRR) assay which does not require expensive equipment or reagents. The reduction of LMS and lysosomal enlargement seem to be the common responses of exposure to a wide range of pollutants [@regoli1998], although they do not appear to be strictly interdependent (Izaguirre and Marigomez, 2009).
+
+The NRR assay reflects the potential enhanced rate of fusion of primary lysosomes with auto/hetero phagosomes, but also increased autophagy, as well as leakage of the lysosomal contents into the cytosol following damage to the membrane, and possibly, impairment of the proton pump (Seglen, 1983).
+
+### Stress-on-stress (SoS) whole organism response
+
+SoS can be used as a physiological index of mussel health and vitality. Its application is simple and the index is calculated by the survival time when animals are exposed to air. SoS biomarker indicates whether environmental factors, including contaminants, have affected the capacity of molluscs to survive under stressful conditions, such as during exposure to air.
+
+Mussels are able to survive aerial exposure for several days, and their ability to keep their valves closed and to resist aerial exposure is thought to be related to the amount of adenosine triphosphate (ATP) available to maintain the tonus in the adductor muscle (De Zwaan and Mathiew, 1992).
+
+Exposure to pollutants can uncouple the enzymes involved in anaerobic pathways that mussels utilise during emersion in order to maintain basal metabolism (Eertman and de Zwaan, 1994).

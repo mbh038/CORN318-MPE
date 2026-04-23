@@ -1,0 +1,82 @@
+---
+title: "PyMOL"
+execute: 
+  eval: false
+---
+
+This is an outline as to how to load and view in PyMOL the structure of the protein 1MRT.
+
+We focus in particular on the prevalence within the structure of cysteine amino acids.
+
+## Load and clean the structure
+```{python}
+load 1MRT.pdb # do this from the PyMOL menu File/Get PDB: 1MRT
+hide everything
+show cartoon
+```
+
+* Note the lack of secondary structure
+* The structure looks “loose” until we add metals/cysteines
+
+## Show cysteines clearly = sulphur atoms in yellow
+```{python}
+select cys, resn CYS
+show sticks, cys
+color yellow, elem S
+color grey, cys and not elem S
+```
+
+* The cysteines are densely packed
+* This is what enables metal binding
+
+## Show metal ions
+```{python}
+select metals, resn ZN+CD
+show spheres, metals
+colour purple, metals
+set sphere_scale, 0.4
+```
+
+Now it starts to make sense visually. The metals sit at the centre of clusters and are surrounded by cysteine sulphur atoms
+
+## Highlight metal–sulphur coordination
+```{python}
+distance bonds, metals, cys
+set dash_color, cyan
+set dash_width, 2
+```
+
+This shows coordination geometry and makes the “metal–thiolate cage” concept obvious
+
+## Distinguish α and β domains
+```{python}
+select beta_domain, resi 1-30
+select alpha_domain, resi 31-61
+
+color lightblue, beta_domain
+color lightpink, alpha_domain
+```
+
+## Overall appearance
+```{python}
+bg_color white
+set ray_opaque_background, off
+set antialias, 2
+set cartoon_transparency, 0.6
+```
+
+```{python}
+set stick_radius, 0.15
+set sphere_quality, 2
+```
+
+## Render
+```{python}
+ray 2000,1500
+png mt_structure.png
+```
+
+
+
+
+

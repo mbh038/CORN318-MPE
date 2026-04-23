@@ -115,7 +115,7 @@ Once in the marine environment, particularly when exposed to sunlight at the sea
 
 ### Key Uncertainties and Research Needs
 
-While the scale of the problem is becoming clearer, significant knowledge gaps remain:
+While the scale of the problem is becoming more clear, significant knowledge gaps remain:
 
 -   Data Scarcity and Standardization: There is a lack of standardized methodologies for sampling and analyzing plastic debris across different marine reservoirs (sea surface, water column, seafloor, etc.), which hinders global-scale assessments.
 -   Refining Input Estimates: Estimates of plastic inputs from land and rivers are based on models that require more empirical data for validation, including direct measurements of waste transport by rivers, wind, and tides.

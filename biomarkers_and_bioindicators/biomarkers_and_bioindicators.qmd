@@ -20,7 +20,7 @@ A species or community whose characteristics show the presence of specific envir
 
 ## Recommended Biomarkers
 
-Sensitive and low-cost biomarkers were included in the mussel component of integrated monitoring frameworks (e.g. [@unep/map2005;@vethaak2017]) Both these biomarkers (LMS and SoS) indicate general stress responses including chemical pollutants and provide simple and sensitive indicators of environmental quality [@dezwaan1995;@moore2006].
+Sensitive and low-cost biomarkers were included in the mussel component of integrated monitoring frameworks (e.g. [@unep/map2005; @vethaak2017]) Both these biomarkers (LMS and SoS) indicate general stress responses including chemical pollutants and provide simple and sensitive indicators of environmental quality [@dezwaan1995; @moore2006].
 
 ### Lysosomal Membrane Stability (LMS)
 
@@ -34,4 +34,4 @@ SoS can be used as a physiological index of mussel health and vitality. Its appl
 
 Mussels are able to survive aerial exposure for several days, and their ability to keep their valves closed and to resist aerial exposure is thought to be related to the amount of adenosine triphosphate (ATP) available to maintain the tonus in the adductor muscle (De Zwaan and Mathiew, 1992).
 
-Exposure to pollutants can uncouple the enzymes involved in anaerobic pathways that mussels utilise during emersion in order to maintain basal metabolism (Eertman and de Zwaan, 1994).
+Exposure to pollutants can uncouple the enzymes involved in anaerobic pathways that mussels utilise during emersion in order to maintain basal metabolism [@zwaan1996].

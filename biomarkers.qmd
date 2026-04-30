@@ -1,6 +1,6 @@
-# Biomarkers and Bioindicators
+# Biomarkers
 
-## **Bioindicator**
+## **Biomarker**
 
 A species or community whose characteristics show the presence of specific environmental conditions
 

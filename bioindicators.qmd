@@ -29,7 +29,7 @@ Bioindicators are organisms or groups of organisms whose presence, abundance, or
 
 ```{r}
 #| label: fig-foraminifera-community-shifts
-knitr::include_graphics(here("figures","wang_2026_foraminifera_fig1.png"))
+knitr::include_graphics(here("figures","wang_2026_foraminifera_fig1.jpg"))
 ```
 
 **Dolphins and Whales (Apex Indicators)** As top predators, cetacean health and population trends reflect the overall productivity and contamination levels of marine food webs. High concentrations of persistent organic pollutants (POPs) found in their blubber indicate ecosystem-wide contamination.

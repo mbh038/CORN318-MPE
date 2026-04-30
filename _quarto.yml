@@ -16,7 +16,8 @@ book:
     - marine_plastics.qmd
     - marine_plastics_impacts.qmd
     - marine_metals_case_studies.qmd
-    - biomarkers_and_bioindicators.qmd
+    - biomarkers.qmd
+    - bioindicators.qmd
     - references.qmd
 
 bibliography: references.bib

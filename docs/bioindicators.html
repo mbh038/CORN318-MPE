@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>7&nbsp; Biomarkers and Bioindicators – CORN318 Marine Pollution and Ecotoxicology</title>
+<title>8&nbsp; Bioindicators – CORN318 Marine Pollution and Ecotoxicology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,7 +51,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./references.html" rel="next">
-<link href="./marine_metals_case_studies.html" rel="prev">
+<link href="./biomarkers.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -89,6 +89,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -101,7 +130,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./biomarkers_and_bioindicators.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biomarkers and Bioindicators</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioindicators.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Bioindicators</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -170,8 +199,14 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./biomarkers_and_bioindicators.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biomarkers and Bioindicators</span></span></a>
+  <a href="./biomarkers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biomarkers</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bioindicators.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Bioindicators</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -185,27 +220,15 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#bioindicator" id="toc-bioindicator" class="nav-link active" data-scroll-target="#bioindicator"><span class="header-section-number">7.1</span> <strong>Bioindicator</strong></a></li>
-  <li><a href="#attributes-of-useful-biomarkers" id="toc-attributes-of-useful-biomarkers" class="nav-link" data-scroll-target="#attributes-of-useful-biomarkers"><span class="header-section-number">7.2</span> Attributes of useful biomarkers</a></li>
-  <li><a href="#recommended-biomarkers" id="toc-recommended-biomarkers" class="nav-link" data-scroll-target="#recommended-biomarkers"><span class="header-section-number">7.3</span> Recommended Biomarkers</a>
-  <ul class="collapse">
-  <li><a href="#lysosomal-membrane-stability-lms" id="toc-lysosomal-membrane-stability-lms" class="nav-link" data-scroll-target="#lysosomal-membrane-stability-lms"><span class="header-section-number">7.3.1</span> Lysosomal Membrane Stability (LMS)</a></li>
-  <li><a href="#stress-on-stress-sos-whole-organism-response" id="toc-stress-on-stress-sos-whole-organism-response" class="nav-link" data-scroll-target="#stress-on-stress-sos-whole-organism-response"><span class="header-section-number">7.3.2</span> Stress-on-stress (SoS) whole organism response</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biomarkers and Bioindicators</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Bioindicators</span></h1>
 </div>
 
 
@@ -222,59 +245,51 @@ div.csl-indent {
 </header>
 
 
-<section id="bioindicator" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="bioindicator"><span class="header-section-number">7.1</span> <strong>Bioindicator</strong></h2>
-<p>A species or community whose characteristics show the presence of specific environmental conditions</p>
-</section>
-<section id="attributes-of-useful-biomarkers" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="attributes-of-useful-biomarkers"><span class="header-section-number">7.2</span> Attributes of useful biomarkers</h2>
-<ul>
-<li><p>widespread distribution</p></li>
-<li><p>abundance</p></li>
-<li><p>easy sampling</p></li>
-<li><p>easy taxonomic identification</p></li>
-<li><p>stationary</p></li>
-<li><p>moderate tolerance to pollution.<br>
-</p></li>
-</ul>
-</section>
-<section id="recommended-biomarkers" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="recommended-biomarkers"><span class="header-section-number">7.3</span> Recommended Biomarkers</h2>
-<p>Sensitive and low-cost biomarkers were included in the mussel component of integrated monitoring frameworks (e.g. <span class="citation" data-cites="unep/map2005 vethaak2017">(<a href="references.html#ref-unep/map2005" role="doc-biblioref">UNEP/MAP 2005</a>; <a href="references.html#ref-vethaak2017" role="doc-biblioref">Vethaak et al. 2017</a>)</span>) Both these biomarkers (LMS and SoS) indicate general stress responses including chemical pollutants and provide simple and sensitive indicators of environmental quality <span class="citation" data-cites="dezwaan1995 moore2006">(<a href="references.html#ref-dezwaan1995" role="doc-biblioref">A. de Zwaan, Cortesi, and Cattani 1995</a>; <a href="references.html#ref-moore2006" role="doc-biblioref">Moore, Icarus Allen, and McVeigh 2006</a>)</span>.</p>
-<section id="lysosomal-membrane-stability-lms" class="level3" data-number="7.3.1">
-<h3 data-number="7.3.1" class="anchored" data-anchor-id="lysosomal-membrane-stability-lms"><span class="header-section-number">7.3.1</span> Lysosomal Membrane Stability (LMS)</h3>
-<p>Can be measured using the in-vivo neutral red retention (NRR) assay which does not require expensive equipment or reagents. The reduction of LMS and lysosomal enlargement seem to be the common responses of exposure to a wide range of pollutants <span class="citation" data-cites="regoli1998">(<a href="references.html#ref-regoli1998" role="doc-biblioref">Regoli, Nigro, and Orlando 1998</a>)</span>, although they do not appear to be strictly interdependent (Izaguirre and Marigomez, 2009).</p>
-<p>The NRR assay reflects the potential enhanced rate of fusion of primary lysosomes with auto/hetero phagosomes, but also increased autophagy, as well as leakage of the lysosomal contents into the cytosol following damage to the membrane, and possibly, impairment of the proton pump (Seglen, 1983).</p>
-</section>
-<section id="stress-on-stress-sos-whole-organism-response" class="level3" data-number="7.3.2">
-<h3 data-number="7.3.2" class="anchored" data-anchor-id="stress-on-stress-sos-whole-organism-response"><span class="header-section-number">7.3.2</span> Stress-on-stress (SoS) whole organism response</h3>
-<p>SoS can be used as a physiological index of mussel health and vitality. Its application is simple and the index is calculated by the survival time when animals are exposed to air. SoS biomarker indicates whether environmental factors, including contaminants, have affected the capacity of molluscs to survive under stressful conditions, such as during exposure to air.</p>
-<p>Mussels are able to survive aerial exposure for several days, and their ability to keep their valves closed and to resist aerial exposure is thought to be related to the amount of adenosine triphosphate (ATP) available to maintain the tonus in the adductor muscle (De Zwaan and Mathiew, 1992).</p>
-<p>Exposure to pollutants can uncouple the enzymes involved in anaerobic pathways that mussels utilise during emersion in order to maintain basal metabolism <span class="citation" data-cites="zwaan1996">(<a href="references.html#ref-zwaan1996" role="doc-biblioref">A. D. Zwaan and Eertman 1996</a>)</span>.</p>
+<p>Bioindicators are organisms or groups of organisms whose presence, abundance, or condition reflects the health of an ecosystem. Here are some key examples from marine environments:</p>
+<p><strong>Coral Reefs</strong> Coral coverage and bleaching rates are among the most visible indicators of reef health. Healthy reefs support high coral cover and biodiversity, while bleached or dead corals signal thermal stress, pollution, or ocean acidification. The ratio of hard coral to algae is also telling — algal overgrowth often indicates nutrient pollution.</p>
+<p><strong>Seagrass Meadows</strong> Seagrass density and distribution indicate water clarity and nutrient levels. Declining seagrass beds signal excessive turbidity, eutrophication, or physical disturbance. Species like <em>Posidonia oceanica</em> in the Mediterranean are particularly sensitive and widely used as indicators.</p>
+<p><strong>Echinoderms</strong> Sea urchins and sea stars reflect ecosystem balance. Overabundance of sea urchins (often caused by the collapse of predator populations) leads to “urchin barrens” — areas stripped of kelp <span class="citation" data-cites="ling2009">(<a href="references.html#ref-ling2009" role="doc-biblioref">Ling and Johnson 2009</a>)</span>. Conversely, the mass die-off of sea urchins can signal disease outbreaks or pollution events. Their larvae in particular have been shown to be sentive to a range of organic and inorganic pollutants, including several metals <span class="citation" data-cites="morroni2023">(<a href="references.html#ref-morroni2023" role="doc-biblioref">Morroni et al. 2023</a>)</span>. They are also vulnerable to ocean acidification. At 2 x <span class="math inline">\(\ce{CO2}\)</span>, juvenile echinoderms stopped growing and produced more brittle and fragile exoskeletons in a subtropical six-month manipulative experiment <span class="citation" data-cites="shirayama2005">(<a href="references.html#ref-shirayama2005" role="doc-biblioref">Shirayama and Thornton 2005</a>)</span></p>
+<p><strong>Fish Communities</strong> The composition and diversity of fish assemblages indicate habitat quality. A healthy reef fish community includes a balance of herbivores, carnivores, and apex predators. Dominance by a single species, or the absence of large predatory fish, suggests overfishing or habitat degradation.</p>
+<p><strong>Phytoplankton and Harmful Algal Blooms (HABs)</strong> Phytoplankton composition reflects nutrient availability and water temperature. An increase in harmful algal species (e.g., <em>Karenia brevis</em> causing red tides) indicates elevated nutrient pollution (eutrophication) and warming waters.</p>
+<p><strong>Bivalves (Mussels &amp; Oysters)</strong> Filter feeders like mussels (<em>Mytilus</em> spp.) are classic pollution indicators. They bioaccumulate heavy metals, microplastics, and pathogens in their tissues, making them ideal for monitoring chemical contamination. Mussel Watch programmes are used globally for exactly this purpose.</p>
+<p><strong>Pteropods</strong> These exist in large numbers at high latitudes but are vulnerable to acidification of the ocean <span class="citation" data-cites="orr2005">(<a href="references.html#ref-orr2005" role="doc-biblioref">Orr et al. 2005</a>)</span>. Examples are <em>Limacina helicina</em> and <em>Clio pyramidata</em>. In particular, if the high latitude oceans become undersaturated with respect to <span class="math inline">\(\ce{[CO3^{2-}]}\)</span> as a consequence of acidification, their shells become weakened and pitted. If pteropod species endemic to polar regions can no longer survive and either disappear or move to warmer carbonate rich waters at lower latitudes, their predators will be immediately affected. For instance, gymnosomes are zooplankton that feed exclusively on shelled pteropods. Pteropods also contribute to the diet of diverse carnivorous zooplankton, myctophid and nototheniid fishes, North Pacific salmon, mackerel, herring, cod and baleen whales45.</p>
+<p><strong>Foraminifera</strong> These microscopic single-celled organisms are excellent indicators of ocean acidification and bottom-water oxygen levels. Changes in their shell thickness and species composition in sediment cores can reveal long-term environmental change. Community compositional changes have also been observed in response to nutrient gradients, for example of disolved inorganic phosphate, in coastal regions <span class="citation" data-cites="wang2026">(<a href="references.html#ref-wang2026" role="doc-biblioref">Wang et al. 2026</a>)</span>, as illustrated in <a href="#fig-foraminifera-community-shifts" class="quarto-xref">Figure&nbsp;<span>8.1</span></a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-foraminifera-community-shifts" class="quarto-float quarto-figure quarto-figure-center anchored" width="90%">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-foraminifera-community-shifts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/wang_2026_foraminifera_fig1.jpg" id="fig-foraminifera-community-shifts" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-foraminifera-community-shifts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Dolphins and Whales (Apex Indicators)</strong> As top predators, cetacean health and population trends reflect the overall productivity and contamination levels of marine food webs. High concentrations of persistent organic pollutants (POPs) found in their blubber indicate ecosystem-wide contamination.</p>
+<p><strong>Mangroves</strong> Though coastal rather than open-ocean, mangrove health — measured by canopy cover, root structure, and associated fauna — indicates coastal water quality, sedimentation rates, and the impact of sea-level rise.</p>
+<p>In practice, scientists rarely rely on a single bioindicator. Instead, they use <strong>multi-metric indices</strong> — combining data from several indicator species across trophic levels — to build a comprehensive picture of ecosystem health. This approach helps account for natural variability and provides more reliable assessments.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-moore2006" class="csl-entry" role="listitem">
-Moore, Michael N., J. Icarus Allen, and Allan McVeigh. 2006. <span>“Environmental Prognostics: An Integrated Model Supporting Lysosomal Stress Responses as Predictive Biomarkers of Animal Health Status.”</span> <em>Marine Environmental Research</em> 61 (3): 278–304. <a href="https://doi.org/10.1016/j.marenvres.2005.10.005">https://doi.org/10.1016/j.marenvres.2005.10.005</a>.
+<div id="ref-ling2009" class="csl-entry" role="listitem">
+Ling, SD, and CR Johnson. 2009. <span>“Population Dynamics of an Ecologically Important Range-Extender: Kelp Beds Versus Sea Urchin Barrens.”</span> <em>Marine Ecology Progress Series</em> 374 (January): 113–25. <a href="https://doi.org/10.3354/meps07729">https://doi.org/10.3354/meps07729</a>.
 </div>
-<div id="ref-regoli1998" class="csl-entry" role="listitem">
-Regoli, Francesco, Marco Nigro, and Enzo Orlando. 1998. <span>“Lysosomal and Antioxidant Responses to Metals in the Antarctic Scallop Adamussium Colbecki.”</span> <em>Aquatic Toxicology</em> 40 (4): 375–92. <a href="https://doi.org/10.1016/s0166-445x(97)00059-3">https://doi.org/10.1016/s0166-445x(97)00059-3</a>.
+<div id="ref-morroni2023" class="csl-entry" role="listitem">
+Morroni, Lorenzo, Arnold Rakaj, Luca Grosso, Gaia Flori, Alessandra Fianchini, David Pellegrini, and Francesco Regoli. 2023. <span>“Echinoderm Larvae as Bioindicators for the Assessment of Marine Pollution: Sea Urchin and Sea Cucumber Responsiveness and Future Perspectives.”</span> <em>Environmental Pollution</em> 335 (October): 122285. <a href="https://doi.org/10.1016/j.envpol.2023.122285">https://doi.org/10.1016/j.envpol.2023.122285</a>.
 </div>
-<div id="ref-unep/map2005" class="csl-entry" role="listitem">
-UNEP/MAP. 2005. <span>“TDA - Transboundary Diagnostic Analysis for the Mediterranean Sea.”</span> <a href="https://wedocs.unep.org/rest/api/core/bitstreams/89bfe3c4-6b7f-4704-84c3-e9a0774501d6/content">https://wedocs.unep.org/rest/api/core/bitstreams/89bfe3c4-6b7f-4704-84c3-e9a0774501d6/content</a>.
+<div id="ref-orr2005" class="csl-entry" role="listitem">
+Orr, James C., Victoria J. Fabry, Olivier Aumont, Laurent Bopp, Scott C. Doney, Richard A. Feely, Anand Gnanadesikan, et al. 2005. <span>“Anthropogenic Ocean Acidification over the Twenty-First Century and Its Impact on Calcifying Organisms.”</span> <em>Nature</em> 437 (7059): 681–86. <a href="https://doi.org/10.1038/nature04095">https://doi.org/10.1038/nature04095</a>.
 </div>
-<div id="ref-vethaak2017" class="csl-entry" role="listitem">
-Vethaak, A. Dick, Ian M. Davies, John E. Thain, Matthew J. Gubbins, Concepción Martínez-Gómez, Craig D. Robinson, Colin F. Moffat, et al. 2017. <span>“Integrated Indicator Framework and Methodology for Monitoring and Assessment of Hazardous Substances and Their Effects in the Marine Environment.”</span> <em>Marine Environmental Research</em> 124 (March): 11–20. <a href="https://doi.org/10.1016/j.marenvres.2015.09.010">https://doi.org/10.1016/j.marenvres.2015.09.010</a>.
+<div id="ref-shirayama2005" class="csl-entry" role="listitem">
+Shirayama, Y., and H. Thornton. 2005. <span>“Effect of Increased Atmospheric CO<span><sub>2</sub></span> on Shallow Water Marine Benthos.”</span> <em>Journal of Geophysical Research: Oceans</em> 110 (C9). <a href="https://doi.org/10.1029/2004jc002618">https://doi.org/10.1029/2004jc002618</a>.
 </div>
-<div id="ref-dezwaan1995" class="csl-entry" role="listitem">
-Zwaan, A. de, P. Cortesi, and O. Cattani. 1995. <span>“Resistance of Bivalves to Anoxia as a Response to Pollution-Induced Environmental Stress.”</span> <em>Science of The Total Environment</em> 171 (1-3): 121–25. <a href="https://doi.org/10.1016/0048-9697(95)04675-4">https://doi.org/10.1016/0048-9697(95)04675-4</a>.
-</div>
-<div id="ref-zwaan1996" class="csl-entry" role="listitem">
-Zwaan, Albertus De, and Richard H. M. Eertman. 1996. <span>“Anoxic or Aerial Survival of Bivalves and Other Euryoxic Invertebrates as a Useful Response to Environmental Stress<span></span>A Comprehensive Review.”</span> <em>Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</em> 113 (2): 299–312. <a href="https://doi.org/10.1016/0742-8413(95)02101-9">https://doi.org/10.1016/0742-8413(95)02101-9</a>.
+<div id="ref-wang2026" class="csl-entry" role="listitem">
+Wang, Daling, Tiezhu Mi, Bochao Xu, Jing Chen, Miaomiao Zhang, and Yu Zhen. 2026. <span>“Benthic Foraminifera as Bioindicators of Phosphate Enrichment in Coastal Ecosystems.”</span> <em>Marine Environmental Research</em> 213 (January): 107709. <a href="https://doi.org/10.1016/j.marenvres.2025.107709">https://doi.org/10.1016/j.marenvres.2025.107709</a>.
 </div>
 </div>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -696,8 +711,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./marine_metals_case_studies.html" class="pagination-link" aria-label="Marine metals">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Marine metals</span></span>
+      <a href="./biomarkers.html" class="pagination-link" aria-label="Biomarkers">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biomarkers</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

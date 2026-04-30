@@ -24,7 +24,7 @@ Sensitive and low-cost biomarkers were included in the mussel component of integ
 
 ### Lysosomal Membrane Stability (LMS)
 
-Can be measured using the in vivo neutral red retention (NRR) assay which does not require expensive equipment or reagents. The reduction of LMS and lysosomal enlargement seem to be the common responses of exposure to a wide range of pollutants [@regoli1998], although they do not appear to be strictly interdependent (Izaguirre and Marigomez, 2009).
+Can be measured using the in-vivo neutral red retention (NRR) assay which does not require expensive equipment or reagents. The reduction of LMS and lysosomal enlargement seem to be the common responses of exposure to a wide range of pollutants [@regoli1998], although they do not appear to be strictly interdependent (Izaguirre and Marigomez, 2009).
 
 The NRR assay reflects the potential enhanced rate of fusion of primary lysosomes with auto/hetero phagosomes, but also increased autophagy, as well as leakage of the lysosomal contents into the cytosol following damage to the membrane, and possibly, impairment of the proton pump (Seglen, 1983).
 

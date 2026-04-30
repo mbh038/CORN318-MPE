@@ -1,0 +1,39 @@
+# Bioindicators
+
+```{r}
+#| include: false
+source(here::here("_common.R"))
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Bioindicators are organisms or groups of organisms whose presence, abundance, or condition reflects the health of an ecosystem. Here are some key examples from marine environments:
+
+**Coral Reefs** Coral coverage and bleaching rates are among the most visible indicators of reef health. Healthy reefs support high coral cover and biodiversity, while bleached or dead corals signal thermal stress, pollution, or ocean acidification. The ratio of hard coral to algae is also telling — algal overgrowth often indicates nutrient pollution.
+
+**Seagrass Meadows** Seagrass density and distribution indicate water clarity and nutrient levels. Declining seagrass beds signal excessive turbidity, eutrophication, or physical disturbance. Species like *Posidonia oceanica* in the Mediterranean are particularly sensitive and widely used as indicators.
+
+**Echinoderms** Sea urchins and sea stars reflect ecosystem balance. Overabundance of sea urchins (often caused by the collapse of predator populations) leads to "urchin barrens" — areas stripped of kelp [@ling2009]. Conversely, the mass die-off of sea urchins can signal disease outbreaks or pollution events. Their larvae in particular have been shown to be sentive to a range of organic and inorganic pollutants, including several metals [@morroni2023]. They are also vulnerable to ocean acidification. At 2 x $\ce{CO2}$, juvenile echinoderms stopped growing and produced more brittle and fragile exoskeletons in a subtropical six-month manipulative experiment [@shirayama2005]
+
+**Fish Communities** The composition and diversity of fish assemblages indicate habitat quality. A healthy reef fish community includes a balance of herbivores, carnivores, and apex predators. Dominance by a single species, or the absence of large predatory fish, suggests overfishing or habitat degradation.
+
+**Phytoplankton and Harmful Algal Blooms (HABs)** Phytoplankton composition reflects nutrient availability and water temperature. An increase in harmful algal species (e.g., *Karenia brevis* causing red tides) indicates elevated nutrient pollution (eutrophication) and warming waters.
+
+**Bivalves (Mussels & Oysters)** Filter feeders like mussels (*Mytilus* spp.) are classic pollution indicators. They bioaccumulate heavy metals, microplastics, and pathogens in their tissues, making them ideal for monitoring chemical contamination. Mussel Watch programmes are used globally for exactly this purpose.
+
+**Pteropods** These exist in large numbers at high latitudes but are vulnerable to acidification of the ocean [@orr2005]. Examples are *Limacina helicina* and *Clio pyramidata*. In particular, if the high latitude oceans become undersaturated with respect to $\ce{[CO3^{2-}]}$ as a consequence of acidification, their shells become weakened and pitted. If pteropod species endemic to polar regions can no longer survive and either disappear or move to warmer carbonate rich waters at lower latitudes, their predators will be immediately affected. For instance, gymnosomes are zooplankton that feed exclusively on shelled pteropods. Pteropods also contribute to the diet of diverse carnivorous zooplankton, myctophid and nototheniid fishes, North Pacific salmon, mackerel, herring, cod and baleen whales45.
+
+**Foraminifera** These microscopic single-celled organisms are excellent indicators of ocean acidification and bottom-water oxygen levels. Changes in their shell thickness and species composition in sediment cores can reveal long-term environmental change. Community compositional changes have also been observed in response to nutrient gradients, for example of disolved inorganic phosphate, in coastal regions [@wang2026], as illustrated in @fig-foraminifera-community-shifts.
+
+```{r}
+#| label: fig-foraminifera-community-shifts
+knitr::include_graphics(here("figures","wang_2026_foraminifera_fig1.png"))
+```
+
+**Dolphins and Whales (Apex Indicators)** As top predators, cetacean health and population trends reflect the overall productivity and contamination levels of marine food webs. High concentrations of persistent organic pollutants (POPs) found in their blubber indicate ecosystem-wide contamination.
+
+**Mangroves** Though coastal rather than open-ocean, mangrove health — measured by canopy cover, root structure, and associated fauna — indicates coastal water quality, sedimentation rates, and the impact of sea-level rise.
+
+In practice, scientists rarely rely on a single bioindicator. Instead, they use **multi-metric indices** — combining data from several indicator species across trophic levels — to build a comprehensive picture of ecosystem health. This approach helps account for natural variability and provides more reliable assessments.
